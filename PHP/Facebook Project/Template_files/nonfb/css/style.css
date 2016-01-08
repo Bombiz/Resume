@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS du concours non facebook de Voyage action*/
+
+
+/* CSS main page */
+html {
+	margin:0; 
+	padding:0;
+}
+body {
+	font-family: Helvetica, sans-serif;
+	margin:0; padding:0;
+	background-color: #fff;
+}
+img {display:block;}
+
+
+form {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
+}
+
+/* CSS formulaire page */
+#container_formulaire{
+	background-image: url(../images/nonfb_index.jpg);
+	background-repeat: no-repeat;
+	width: 640px;
+	height: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input, textarea, select, option {
+	background-color: #ffffff;
+	width: 40%;
+	height:1px;
+	padding: 20px 0px 20px 10px;
+	margin-bottom: 5px;
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	border-radius:5px;
+	border:0px;
+}
+#submit{
+	background: #ea2076;
+	color: #fff;
+	width: 265px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 22px;
+	line-height: 14px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	}
+#submit:hover {
+	background: #EF5697;
+}
+.warning{
+	color: #fff;
+	background: red;
+	padding: 2px;
+	margin: 0 auto;
+	width: 40%;
+	/* left: 290px; */
+	/* position: absolute; */
+	text-align: center;
+	display: block;
+	
+}
+
+#content_formulaire{
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	font-size: 16px;
+	position: relative;
+	font-weight: bold;
+	top: 280px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+#content_formulaire div{
+	margin-bottom:25px;
+}
+
+/* MERCI */ 
+.merci {
+	margin: 330px auto 0 auto;
+	text-transform: uppercase;
+	color: #fff;
+	width: 100%;
+	float: left;
+	text-align: center;
+
+}
+.merci a {
+	width: 200px;
+	height: 40px;
+	background: #ea2076;
+	padding: 15px 50px;
+	top: 20px;
+	color: #fff;
+	font-weight: lighter;
+	outline: none;
+	border-radius: 5px;
+	text-transform: none;
+}
+.merci a:hover {
+	background: #EF5697;
+}
+.merci h1 {
+	font-size: 21px;
+}
+.merci h4 {
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+#container_validation {
+	background-image: url(../images/nonfb_index.jpg);
+	background-repeat: no-repeat;
+	width: 640px; height: 1008px;
+	margin: 0 auto;
+	color: #fff;
+
+} 
+.visitez {
+	width: 261px;
+	height: 66px;
+	position: relative;
+	background-image: url(../images/btn_visitez.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	float: left;
+	top: 750px;
+	left:190px;
+	margin: 0 auto;
+}
+.visitez:hover {
+	background-image: url(../images/btn_visitez.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 -66px;
+
+}
+
+::-webkit-input-placeholder {
+   font-size:11px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size:11px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size:11px;  
+}
+
+:-ms-input-placeholder {  
+   font-size:11px;  
+}
+
+/*---- Css pour le mobile ----*/
+@media screen and (max-width:340px){
+
+	input {
+		/*width: 250px;*/
+		/*margin-left: -20px;*/
+		/*padding: 10px 0 10px 10px;*/
+	}
+
+	input, textarea, select, option {
+		background-color: #ffffff;
+		width: 55%;
+		height: 40px;
+		padding: 0;
+		margin-bottom: 5px;
+		color: #000000;
+		font-size: 12px;
+	}
+	
+	#submit {
+		width: 244px;
+	}
+
+	#container_formulaire{
+		width: 320px;
+		height: 568px;
+		background-size: cover;
+		background-position-x: -43px;
+	}
+	#content_formulaire{
+		width: 100%;
+		top: 190px;
+		margin: 0 auto;
+		font-family: 'Arial';
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	/* MERCI */
+	#container_validation {
+		width: 320px;
+		height: 568px;
+		background-size: cover;
+		background-position-x: -43px;
+	}
+	.merci {
+		margin: 190px auto 0 auto;
+		text-transform: uppercase;
+		color: #fff;
+		width: 100%;
+		float: left;
+		text-align: center;
+		}
+
+	.merci h1 {font-size: 17px;}
+	.merci h3 {font-size: 11px;}
+	.merci h4 {font-size: 16px;}
+	.visitez {
+		width: 270px;
+		height: 66px;
+		top:370px;
+		left:30px;
+	}
+	.warning{
+		color: #fff;
+		background: red;
+		padding: 2px;
+		font-size: 9px;
+		margin: 0 auto;
+		left: 98px;
+		position: absolute;
+		text-align: center;
+		display: block;
+	}
+	::-webkit-input-placeholder {
+	   font-size:10px;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   font-size:10px;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   font-size:10px;  
+	}
+
+	:-ms-input-placeholder {  
+	   font-size:10px;  
+	}
+}

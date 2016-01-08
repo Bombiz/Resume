@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{$hero->get_name()}</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+  body {
+background-image: url(http://images7.alphacoders.com/319/319929.jpg)
+}
+    h1,h2 {
+      color:blue;
+      text-align:center;
+    }
+    
+    .selected{
+        background: #333;
+        background: rgba(0,0,0,.8);
+        border-radius: 5px;
+        color: #fff;
+        left: 20%;
+        padding: 5px 15px;
+        position: absolute;
+        z-index: 98;
+        width: 340px;
+        display: none;
+    }
+
+/*    h3 {
+     
+height: 40px;
+  width: 320px;
+  padding: 0 15px;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  background: url("../images/ui/tooltip-title.jpg") no-repeat;
+  background-image: url(http://us.battle.net/d3/static/images/ui/tooltip-title.jpg);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+    }*/
+
+
+}
+
+  
+  </style>
+
+
+
+  {$allskills=$hero->get_skills()}
+  {$count=0}
+</head>
+<body>
+ <h1>{$battleTag} - {$hero->get_name()}</h1>
+ <h2>
+   Hero ID: {$hero->get_id()}<br />
+   Class: {$hero->get_class()}<br />
+   Level: {$hero->get_level()}<br />
+   Gender: {$hero->get_gender()}<br />
+   Hardcore: {$hero->get_hardcore()}<br />
+ </h2>
+ <div style="border: solid; background: #332; background: rgba(80,45,30,.8); border-radius: 5px; width: 300px;">
+ <ul>
+  {foreach from=$allskills[0] item=aRow}
+  <li>
+  <span class='list' style="color: white;">
+    {$aRow.name}<br />
+    {$allskills[1][$count]['name']}
+    <span class='selected'><small style="font-family: sans-serif; font-size: 25px; border: 2.5px solid gold;">{$aRow.name}</small> <br/>{$aRow.description} <br/><br/><hr/> <small style="font-family: sans-serif; font-size: 18px; border: 2.5px solid gold;">{$allskills[1][$count]['name']}</small> <br/>{$allskills[1][$count]['description']}</span>
+    </span>
+  </li><br />
+  {$count=$count+1}
+  {/foreach}
+</ul>
+</div>
+<a href="search.html" id="link">Back to browse</a>  
+ <script>
+    $( ".list" ).hover(
+      function() {
+        $(this).children(".selected").show();
+      }, function() {
+        $(this).children(".selected").hide();
+      }
+      );
+  </script>
+</body>
+</html>
