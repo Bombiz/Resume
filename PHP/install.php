@@ -22,14 +22,15 @@ $mySmarty->setCompileDir("smarty/templates_c");        //select compile director
 if(!isset($_POST['date']))
 {
 	$html = 'nothing to install.';
-	$title = 'error';                                     	//get html page title
+	$title = 'error';                                     	//set html page title
 	$mySmarty->assign('html', $html);						//asign html php variable to smarty html variable
-	$mySmarty->assign('title', $title);						//
-	$mySmarty->assign('success', $success);                 //
-	$mySmarty->display("install.html");
+	$mySmarty->assign('title', $title);						
+	$mySmarty->assign('success', $success);                 //Page returned an error 
+	$mySmarty->display("install.html");						
 	exit();
 }
-/*Hanle Image Uploading first*/
+
+/*Handle Image Uploading first*/
 foreach ($_FILES as $key => $value) {	
 	/*
 	$value['error'] gets the current upload error code for the file
@@ -80,8 +81,9 @@ if($html != '')
 
 
 
-$a=explode('/', $_POST['date']);                       //'explode' splits string based on provided delimiter. returns array   
-/*rearrange the date to standard format [yyyy_mm_dd]*/
+$a=explode('/', $_POST['date']);                       //'explode' splits string based variables on a provided delimiter. returns array
+
+/*rearrange the date to format [yyyy_mm_dd]*/
 $year=$a[2].'_';									   
 $day=$a[1];											   
 $month=$a[0].'_';
@@ -107,7 +109,7 @@ if (file_exists("FB_Contests/".$_POST['company']."/".$folder_name)) {  						   
 	exit();																						             //then leave
 }
 
-$source = "FB_Contests/".$_POST['company'].'/'.$folder_name;		//source of  the files
+$source = "FB_Contests/".$_POST['company'].'/'.$folder_name;		                                               //source of  the files
 $nonFB='http://naddesign.ca/fb_dev_app/FB_Contests/'.$_POST['company'].'/'.$date.'/nonfb/';                        //assemble the nonFB url
 $site='https://www.naddesign.ca/fb_dev_app/FB_Contests/'.$_POST['company'].'/'.$date.'/mobile/';
 
@@ -187,7 +189,7 @@ needs to be passed
 */
 function DB_connection(\$host, \$user, \$pass, \$name) {
 	\$dns = 'mysql:dbname='.\$name.';host='.\$host;
-	\$lbd = new PDO(\$dns, \$user, \$pass)                       //connect to mySQL
+	\$lbd = new PDO(\$dns, \$user, \$pass)                              //connect to mySQL
 	or die(\"Sorry, Unable to connect to the Database server <br />\"	//or if their's an error 
 		. \"<br>Error number : \" . mysql_errno()						//exit and send an error message 
 		. \"<br>Error Message : \" . mysql_error());
@@ -394,10 +396,10 @@ creating the database table
 ============================================
 */
 
-$DB=new Database;
+$DB=new Database;                                                //a new connection to the database 
 $DB->table = strtolower($_POST['company'].'_'.$folder_name);     //set table name
-$table = $DB->table;                       //get table name
-if(!$DB->TableExists($table))              //create the table if it doesn't already exist 
+$table = $DB->table;                                             //get table name
+if(!$DB->TableExists($table))                                    //create the table if it doesn't already exist 
 {   //sql to create a table
 	$sql="CREATE TABLE `$table` (          
 		Id int(7) NOT NULL AUTO_INCREMENT,
@@ -417,9 +419,9 @@ if(!$DB->TableExists($table))              //create the table if it doesn't alre
 		PRIMARY KEY (Id),
 		UNIQUE id (Id)
 	)";
-	$DB->MakeTable($sql);   //make the table           
+	$DB->MakeTable($sql);            
 }
-else
+else                                     //Table name already exists. ask client to pick a diffrent name
 {
 	$title = 'Error';          				   
 	$html .= "<br>That table already exists";  

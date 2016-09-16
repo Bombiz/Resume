@@ -5,7 +5,7 @@ $App=GET_appdetails();
 $Urls=GET_urls();
 $title=GET_title();
 $tel='yes';
-// check si la app a été acceptée deja...
+// check if the app was already accepted
 $facebook = new Facebook(array(
 	'appId' => $App['AppID'],
 	'secret' => $App['Secret'],
@@ -78,8 +78,7 @@ if($send=="yes"){
 		
 		$stmnt->bindParam(':email', $email, PDO::PARAM_STR);
 		$stmnt->execute();
-		// $result = $stmnt->fetch();
-		// var_dump($result);
+		
 		if ($stmnt->fetch()) 
 		{
 			?><script type="text/javascript">
@@ -91,8 +90,6 @@ if($send=="yes"){
 
         $desktop=1;
 		if (GET_telephone()) {
-			// var_dump($error_telephone);
-			// exit();
 			if(!$error_telephone)
 			{
 
@@ -132,12 +129,6 @@ if($send=="yes"){
                           ':desktop' => $desktop
             );
 			$insertstmnt->execute($params);
-
-			// $insertsql = "INSERT INTO $table (first_name, last_name, email, gender, link, local, timezone, desktop) VALUES ( ?,?,?,?,?,?,?,?)"; 
-			// $insertstmnt=$conn->prepare($insertsql);
-			// $insertstmnt->bind_param("sssssssi", $first_name, $last_name, $email, $gender, $link, $local, $timezone, $desktop);
-			// $insertstmnt->execute();
-			// $insertstmnt->close();
 			echo "<script>location.href = 'accepted.php'</script>"; //load accepted
 		}
 
@@ -243,7 +234,7 @@ if($send=="yes"){
 				  access_token = response.authResponse.accessToken; //get access token
 				  user_id = response.authResponse.userID; //get FB User ID
 
-				  FB.api('/me', function(response) {	//getting all the user's public information
+				  FB.api('/me', function(response) {  //getting all the user's public information
 					user_first = response.first_name; //get user first_name
 					user_last = response.last_name;   //get user last_name
 					user_email = response.email;      //get user email 			(returns '******@*****.com')
@@ -252,7 +243,6 @@ if($send=="yes"){
 					link = response.link;             //get user profile link 	(returns 'https://www.facebook.com/app_scoped_user_id/[user_id]/')
 					locale = response.locale;         //get user location 		(returns 'en_US')
 					timezone = response.timezone;     //get user time zone 		(returns '-5')
-					 // console.log(response); // dump complete info
 
 				/* storing these values into hidden feilds 
 				   so that we can store them in the database */ 
@@ -268,7 +258,7 @@ if($send=="yes"){
 
 
 				} else {
-				  //user hit cancel button
+				  //user hit the cancel button
 				  console.log('User cancelled login or did not fully authorize.');
 
 				}

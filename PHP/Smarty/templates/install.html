@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{$title}</title>
+</head>
+<style>
+{if $success} 
+p {
+	text-align: center;
+	top: 50%;
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+}
+{else}
+p {
+	text-align: center;
+	top: 50%;
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    color: red;
+}
+{/if}
+
+</style>
+<body style="background-color:lightblue">
+<p>{$html}</p>
+</body>
+</html>

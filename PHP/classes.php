@@ -7,19 +7,21 @@ Description:
 ========================================================================================================================*/
 /**
  * Database class
- * class is used to preforme basic data base function lie connecting and making tables
+ * class is used to preforme basic data base function like connecting and making tables
  */
 class Database 
 {
+	//=====Database connection info==========//
 	private $host = 'localhost';
 	private $user = 'naddesig';
 	private $pass = 'Wesare37frutu8';
 	private $name = 'naddesig_fbdev';
+	//=======================================//
 	public $table = '';
 
 	function __construct()
 	{
-		$lbd = mysql_connect($this->host, $this->user, $this->pass) //connect to the SQL server 
+		$lbd = mysql_connect($this->host, $this->user, $this->pass)              //connect to the SQL server 
 		or die("Sorry, Unable to connect to the Database server <br />"		     //or if their's an error 
 		. "<br>Error number : " . mysql_errno()							         //exit and send an error message 
 		. "<br>Error Message : " . mysql_error());
@@ -32,7 +34,6 @@ class Database
 		mysql_set_charset('utf8',$lbd);
 	} 
 
-	/**/
 	public function MakeTable($sql)
 	{
 		mysql_query($sql) 
@@ -42,7 +43,7 @@ class Database
 		echo "made table";
 
 	}
-
+	/*Make sure their isn't duplicts of any tables*/
 	public function TableExists($table) 
 	{
 		$result = mysql_query("SHOW TABLES LIKE '".$table."'");
