@@ -1,0 +1,1859 @@
+*========================================================Tomb Kings=================================================================
+Ancillary Blessed_Blade_of_Ptra
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Blessed_Blade_of_Ptrad_desc
+    EffectsDescription Blessed_Blade_of_Ptra_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Blessed_Blade_of_Ptra_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Blessed_Blade_of_Ptra chance  100
+
+;-------------------------------------------------------
+
+
+{Blessed_Blade_of_Ptra}Blessed Blade of Ptra
+{Blessed_Blade_of_Ptra_desc}The Blessed Blade of Ptra given to King Settra.
+{Blessed_Blade_of_Ptra_effects_desc}stuff
+
+Blessed_Blade_of_Ptra
+Blessed_Blade_of_Ptra_desc
+Blessed_Blade_of_Ptra_effects_desc
+#####################################################################################################################
+
+
+Ancillary Golden_Death_Mask_of_Kharnut
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Golden_Death_Mask_of_Kharnutd_desc
+    EffectsDescription Golden_Death_Mask_of_Kharnut_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Golden_Death_Mask_of_Kharnut_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Golden_Death_Mask_of_Kharnut chance  25
+
+;-------------------------------------------------------
+
+
+{Golden_Death_Mask_of_Kharnut}Golden Death Mask of Kharnut
+{Golden_Death_Mask_of_Kharnut_desc}According to Nehekharan beliefs, in the afterlife the gods would bestow each king with a body of gold. Thus, when Prince Kharnut awoke from his death-sleep he was horrified at his withered, skeletal visage and demanded the Mortuary Cult fashion for him a magnificent golden death mask. However, when the mask was being sealed around Kharnut's head, a drop of molten gold fell upon the Prince's embalmed body, immolating him in a fiery blaze. The Prince's spirit was not destroyed, but was mystically bound within the expressionless mask. The taint of death hangs heavy upon the death mask, gripping the hearts of all who gaze upon it
+{Golden_Death_Mask_of_Kharnut_effects_desc}stuff
+
+Golden_Death_Mask_of_Kharnut
+Golden_Death_Mask_of_Kharnut_desc
+Golden_Death_Mask_of_Kharnut_effects_desc
+#####################################################################################################################
+
+
+
+Ancillary Cloak_of_the_dunes
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Cloak_of_the_dunesd_desc
+    EffectsDescription Cloak_of_the_dunes_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Cloak_of_the_dunes_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Cloak_of_the_dunes chance  25
+
+;-------------------------------------------------------
+
+
+{Cloak_of_the_dunes}Cloak of the dunes
+{Cloak_of_the_dunes_desc}This fabled cloak is said to have been created by Khsar the Faceless, the god of the desert who took on the form of the elemental wind. The Cloak of the Dunes is infused with the magic of the deserts, enabling the wearer to transform himself into a whirling cloud of sand. As the wearer moves across the desert, a cone of sharp sand follows in his wake that can strip flesh from bone.[
+{Cloak_of_the_dunes_effects_desc}stuff
+
+Cloak_of_the_dunes
+Cloak_of_the_dunes_desc
+Cloak_of_the_dunes_effects_desc
+#####################################################################################################################
+
+
+
+Ancillary Standard_of_the_Undying_Legion
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Standard_of_the_Undying_Legiond_desc
+    EffectsDescription Standard_of_the_Undying_Legion_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Standard_of_the_Undying_Legion_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Standard_of_the_Undying_Legion chance  25
+
+;-------------------------------------------------------
+
+
+{Standard_of_the_Undying_Legion}Standard of the Undying Legion
+{Standard_of_the_Undying_Legion_desc}The Standard of the Undying Legion
+{Standard_of_the_Undying_Legion_effects_desc}provides extra healingafter battle? 
+
+Standard_of_the_Undying_Legion
+Standard_of_the_Undying_Legion_desc
+Standard_of_the_Undying_Legion_effects_desc
+#####################################################################################################################
+
+Ancillary Destroyer_of_Eternities
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Destroyer_of_Eternitiesd_desc
+    EffectsDescription Destroyer_of_Eternities_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Destroyer_of_Eternities_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Destroyer_of_Eternities chance  25
+
+;-------------------------------------------------------
+
+
+{Destroyer_of_Eternities}Destroyer of Eternities
+{Destroyer_of_Eternities_desc}The bloodthirsty King Nekhesh first wielded this massive, ornate blade in battle, smashing his foes in all directions and severing limbs and heads with each sweeping blow. The blade destroys the very souls of those it slays, leaving them with no chance of reaching the afterlife. It was thus greatly feared in ancient Nehekhara, where to be killed with it was deemed a fate infinitely worse than death. The sword was also used to ritually execute captured foes of the King. Due to the power imbued through magical incantations, it can cleave through armor, muscle, and bone with ease.
+{Destroyer_of_Eternities_effects_desc}extra attack?
+
+Destroyer_of_Eternities
+Destroyer_of_Eternities_desc
+Destroyer_of_Eternities_effects_desc
+#####################################################################################################################
+
+
+Ancillary Blade_of_Antarhak
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Blade_of_Antarhakd_desc
+    EffectsDescription Blade_of_Antarhak_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Blade_of_Antarhak_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Blade_of_Antarhak chance  25
+
+;-------------------------------------------------------
+
+
+{Blade_of_Antarhak}Blade of Antarhak
+{Blade_of_Antarhak_desc}Forged for the Tomb Prince Antarhak, this weapon draws the life energy from the slain and suffuses the wielder with the stolen essence. Those whose bodies are pierced by this cursed blade age decades in mere seconds, their powerful frames reduced to withered husks in the span of a few heartbeats. As the foe's vitality is sapped, the wielder's wounds heal, and a semblance of youth returns, if only temporarily, to their time-ravaged features.
+{Blade_of_Antarhak_effects_desc}stuff
+
+Blade_of_Antarhak
+Blade_of_Antarhak_desc
+Blade_of_Antarhak_effects_desc
+#####################################################################################################################
+
+Ancillary Banner_of_the_Hidden_Dead
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Banner_of_the_Hidden_Deadd_desc
+    EffectsDescription Banner_of_the_Hidden_Dead_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Banner_of_the_Hidden_Dead_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Banner_of_the_Hidden_Dead chance  25
+
+;-------------------------------------------------------
+
+
+{Banner_of_the_Hidden_Dead}Banner of the Hidden Dead
+{Banner_of_the_Hidden_Dead_desc}elonging to the fabled Hawk Legion, the elite army who guarded Settra before his mummification, the Banner of the Hidden Dead summons the souls of one of one of their regiments from their honoured place in the Underworld. Wrought with powerful incantations, the ancient dead are called to this banner like moths to a flame. The magic of the banner then binds these souls into skeletal remains of warriors who have long laid buried and forgotten beneath the sands. At a wordless command, skeletal soldiers punch through the desert surface, forming into perfect ranks or long-dead charioteers burst forth from the dunes for the first time in millennia, ready to wage war once more for the glory of Nehekhara.
+{Banner_of_the_Hidden_Dead_effects_desc}stuff
+
+Banner_of_the_Hidden_Dead
+Banner_of_the_Hidden_Dead_desc
+Banner_of_the_Hidden_Dead_effects_desc
+#####################################################################################################################
+
+*==================================================================Lizardmen=======================================================
+Ancillary Cobra_Mace_of_Mazdamundi
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Cobra_Mace_of_Mazdamundid_desc
+    EffectsDescription Cobra_Mace_of_Mazdamundi_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Cobra_Mace_of_Mazdamundi_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsFactionLeader
+    AcquireAncillary Cobra_Mace_of_Mazdamundi chance  100
+
+;-------------------------------------------------------
+
+
+{Cobra_Mace_of_Mazdamundi}Cobra Mace of Mazdamundi
+{Cobra_Mace_of_Mazdamundi_desc}Shaped like a hooded cobra, this mace has a sentience of its own, and strikes out with lightning speed to defy Lord Mazdamundi's foes.
+{Cobra_Mace_of_Mazdamundi_effects_desc}stuff
+
+Cobra_Mace_of_Mazdamundi
+Cobra_Mace_of_Mazdamundi_desc
+Cobra_Mace_of_Mazdamundi_effects_desc
+#####################################################################################################################
+
+Ancillary Sunburst_Standard_of_Hexoatl
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Sunburst_Standard_of_Hexoatld_desc
+    EffectsDescription Sunburst_Standard_of_Hexoatl_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Sunburst_Standard_of_Hexoatl_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsFactionLeader
+    AcquireAncillary Sunburst_Standard_of_Hexoatl chance  100
+
+;-------------------------------------------------------
+
+
+{Sunburst_Standard_of_Hexoatl}Sunburst Standard of Hexoatl
+{Sunburst_Standard_of_Hexoatl_desc}This golden totem inspires nearby warriors, whilst blinding their foes with its brilliance.
+{Sunburst_Standard_of_Hexoatl_effects_desc}stuff
+
+Sunburst_Standard_of_Hexoatl
+Sunburst_Standard_of_Hexoatl_desc
+Sunburst_Standard_of_Hexoatl_effects_desc
+#####################################################################################################################
+
+Ancillary Sacred_Stegadon_Helm_of_Itza
+    Type helmet
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Sacred_Stegadon_Helm_of_Itzad_desc
+    EffectsDescription Sacred_Stegadon_Helm_of_Itza_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Sacred_Stegadon_Helm_of_Itza_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Sacred_Stegadon_Helm_of_Itza chance  100
+
+;-------------------------------------------------------
+
+
+{Sacred_Stegadon_Helm_of_Itza}Sacred Stegadon Helm of Itza
+{Sacred_Stegadon_Helm_of_Itza_desc}Any Lizardmen wearing a helmet made from a Stegadon skull is accorded due respect, for it is a potent symbol of power. However, any adorned with the Sacred Stegadon Helm of Itza is accorded the reverence due to a Slann. The horns of the helm came from the mighty Xelbalbia, a divinely huge Stegadon whose heroics in the Defence of Itza during the Great Catastrophe were overshadowed only by the defence of the Bridge of Stars.
+{Sacred_Stegadon_Helm_of_Itza_effects_desc}stuff
+
+Sacred_Stegadon_Helm_of_Itza
+Sacred_Stegadon_Helm_of_Itza_desc
+Sacred_Stegadon_Helm_of_Itza_effects_desc
+#####################################################################################################################
+
+Ancillary The_Cloak_of_Feathers
+    Type cloak
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description The_Cloak_of_Feathersd_desc
+    EffectsDescription The_Cloak_of_Feathers_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Cloak_of_Feathers_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Cloak_of_Feathers chance  100
+
+;-------------------------------------------------------
+
+
+{The_Cloak_of_Feathers}The Cloak of Feathers 
+{The_Cloak_of_Feathers_desc}The finely woven Cloak of Feathers is made from hundreds of shed feathers gathered over the centuries from one of the most rare creatures to inhabit Lustria — the mysterious Coatl. These fabled monsters sport long, sinuous, serpentine bodies, Dragon-like heads and massive feathered wings. They are said to be the manifestation of the Old One Tepok, and are venerated by Skink Priests as guardians of the air, magic and sacred places. The Coatl are highly intelligent and powerful mages, and a portion of that mystic power infuses every shed feather. The Cloak of Feathers thus shimmers with a power that not only wards away evil sorcery, but allows the wearer to soar into the air whenever he extends his arms.
+{The_Cloak_of_Feathers_effects_desc}stuff
+
+The_Cloak_of_Feathers
+The_Cloak_of_Feathers_desc
+The_Cloak_of_Feathers_effects_desc
+#####################################################################################################################
+
+Ancillary The_Horn_of_Kygo
+    Type cloak
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description The_Horn_of_Kygod_desc
+    EffectsDescription The_Horn_of_Kygo_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Horn_of_Kygo_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Horn_of_Kygo chance  100
+
+;-------------------------------------------------------
+
+
+{The_Horn_of_Kygo}The Horn of Kygo
+{The_Horn_of_Kygo_desc}A musical instrument carved from a long time dead dinosaur.  ;gives fenzy effect
+{The_Horn_of_Kygo_effects_desc}stuff
+
+The_Horn_of_Kygo
+The_Horn_of_Kygo_desc
+The_Horn_of_Kygo_effects_desc
+#####################################################################################################################
+
+Ancillary Cube_of_Darkness
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Cube_of_Darknessd_desc
+    EffectsDescription Cube_of_Darkness_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Cube_of_Darkness_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Cube_of_Darkness chance  100
+
+;-------------------------------------------------------
+
+
+{Cube_of_Darkness}Cube of Darkness
+{Cube_of_Darkness_desc}Found in the metal ark beneath Xhotl, the Cube of Darkness is as alien as it is powerful. Viewed up close, this small black cube contains millions of tiny pin-pricks of blinking light, each circling a sphere of pure darkness. By implementing the correct pattern of thoughts, the cube may be opened for a fraction of a second, inexplicably drawing the very Winds of Magic into its depths.
+{Cube_of_Darkness_effects_desc}stuff
+
+Cube_of_Darkness
+Cube_of_Darkness_desc
+Cube_of_Darkness_effects_desc
+#####################################################################################################################
+
+Ancillary Plaque_of_Dominion
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Plaque_of_Dominiond_desc
+    EffectsDescription Plaque_of_Dominion_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Plaque_of_Dominion_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Plaque_of_Dominion chance  100
+
+;-------------------------------------------------------
+
+
+{Plaque_of_Dominion}Plaque of Dominion
+{Plaque_of_Dominion_desc}The Lizardmen prize the ancient knowledge of the Old Ones above all else. They will go the ends of the earth to recover even the most eroded or splintered plaques in the hope of uncovering a piece of cosmic knowledge. One such tablet is the Plaque of Dominion, an ancient stone relic carved before the second spawning of the Slann that contains elements of the Old Ones’ own, indecipherable, language. The unfathomable power contained within these graven images is enough to cause the unwary to go mad, and simply by glancing at the glyphs, unprepared minds can be shocked into a bewildering stupor as the insignificance of their puny lives on the cosmic scales of the Old Ones is relentlessly forced into their minds.
+{Plaque_of_Dominion_effects_desc}stuff
+
+Plaque_of_Dominion
+Plaque_of_Dominion_desc
+Plaque_of_Dominion_effects_desc
+#####################################################################################################################
+
+Ancillary Skavenpelt_Banner
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description Skavenpelt_Bannerd_desc
+    EffectsDescription Skavenpelt_Banner_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Skavenpelt_Banner_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Skavenpelt_Banner chance  100
+
+;-------------------------------------------------------
+
+
+{Skavenpelt_Banner}Skavenpelt Banner
+{Skavenpelt_Banner_desc}Throughout the tumultuous Age of Strife, the armies of Tehenhauin, the Prophet of Sotek, marched to war against the Skaven hordes of Clan Pestilens. Many were the totems of that great war, but the most famous relic of that era is beyond a doubt the loathsome Skavenpelt Banner of Poqenichi. Cut from the plague-ridden hide of a Plague Pontifex personally slain by Chief Poqenichi himself, it was crafted when the fork-tailed comet lit even the daytime sky, and many blessings of the Serpent God have been put upon the vile hide. Ever since, Poqenchi’s standard has driven Lizardmen warriors into a murderous frenzy, stirring their reptilian blood to great heights of bloodlust. Many victories have been won beneath the Skavenpelt Banner and with each triumph, post-battle sacrifices furnished further fresh pelts to adorn the powerful icon of the wrath of Lustria unleashed. The rat-kin have grown to particularly loathe the standard, for its appearance has heralded the doom of so many of their kind.
+{Skavenpelt_Banner_effects_desc}stuff
+
+Skavenpelt_Banner
+Skavenpelt_Banner_desc
+Skavenpelt_Banner_effects_desc
+#####################################################################################################################
+
+Ancillary The_Jaguar_Standard
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european,
+    Description The_Jaguar_Standardd_desc
+    EffectsDescription The_Jaguar_Standard_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Jaguar_Standard_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType egypt
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Jaguar_Standard chance  100
+
+;-------------------------------------------------------
+
+
+{The_Jaguar_Standard}The Jaguar Standard
+{The_Jaguar_Standard_desc}The fleet jaguar was a bodily form said to have found much favour in the eyes of the Old Ones and many totems and temples around Lustria bear the beast’s carven image. None amongst these, however, are as famous as the sacred Jaguar Standard. Originally from the temple-city of Xlanhuapec, the Jaguar Standard has been borne to battle by countless victorious armies across all of Lustria and beyond. Those who fight beneath the shadow of this fabled jungle beast’s totem are known to move with the preternatural swiftness of the creature itself, and to hunt down their enemies with relentless fury.
+{The_Jaguar_Standard_effects_desc}stuff
+
+The_Jaguar_Standard
+The_Jaguar_Standard_desc
+The_Jaguar_Standard_effects_desc
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+
+*========================================================Skaven==============================================================
+
+Ancillary Warpmusket
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Warpmusketd_desc
+    EffectsDescription Warpmusket_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Warpmusket_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Warpmusket chance  100
+
+;-------------------------------------------------------
+
+
+{Warpmusket}Warpmusket
+{Warpmusket_desc}A warpmusket is a rifle built along the same lines as the warplock jezzail, although not as long a barrel, so it can be operated by a single skaven.
+{Warpmusket_effects_desc}stuff
+
+Warpmusket
+Warpmusket_desc
+Warpmusket_effects_desc
+#####################################################################################################################
+
+Ancillary Warpstone_Armour
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Warpstone_Armourd_desc
+    EffectsDescription Warpstone_Armour_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Warpstone_Armour_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Warpstone_Armour chance  100
+
+;-------------------------------------------------------
+
+
+{Warpstone_Armour}Warpstone Armour
+{Warpstone_Armour_desc}Wrought within the great warpforges underneath Skavenblight, this armour, worn by some Clan Skryre Warlock-Engineers, radiates an evil aura.[
+{Warpstone_Armour_effects_desc}stuff
+
+Warpstone_Armour
+Warpstone_Armour_desc
+Warpstone_Armour_effects_desc
+#####################################################################################################################
+
+Ancillary Warplock_pistols
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Warplock_pistolsd_desc
+    EffectsDescription Warplock_pistols_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Warplock_pistols_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Warplock_pistols chance  100
+
+;-------------------------------------------------------
+
+
+{Warplock_pistols}Warplock pistols
+{Warplock_pistols_desc}Warplock pistols are commonly used by higher-ranking Skaven, especially the fangleaders of Clan Skryre. Similar in design to warplock jezzails, yet smaller in scale, warplock pistols are devastating at close range.
+{Warplock_pistols_effects_desc}stuff
+
+Warplock_pistols
+Warplock_pistols_desc
+Warplock_pistols_effects_desc
+#####################################################################################################################
+
+Ancillary Fellblade
+    Type Sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Fellbladed_desc
+    EffectsDescription Fellblade_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Fellblade_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Fellblade chance  100
+
+;-------------------------------------------------------
+
+
+{Fellblade}Fellblade
+{Fellblade_desc}n the dim days of Skaven history, the Ratmen waged war against Nagash. To aid in their efforts to destroy this vile Necromancer, they forged this wicked sword, blending gromril stolen from Karak Azgal with warpstone. The result of their horrid labours was this long-bladed sword. The weapon exudes power and malice, and those Skaven who use this weapon in battle are almost always consumed by the sword’s hate.
+{Fellblade_effects_desc}stuff
+
+Fellblade
+Fellblade_desc
+Fellblade_effects_desc
+#####################################################################################################################
+
+Ancillary Warpforged_blade
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Warpforged_bladed_desc
+    EffectsDescription Warpforged_blade_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Warpforged_blade_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Warpforged_blade chance  100
+
+;-------------------------------------------------------
+
+
+{Warpforged_blade}Warpforged Blade
+{Warpforged_blade_desc}Warpstone powder mixed with steel during the forging process creates a weapon of wicked cutting prowess.
+{Warpforged_blade_effects_desc}stuff
+
+Warpforged_blade
+Warpforged_blade_desc
+Warpforged_blade_effects_desc
+#####################################################################################################################
+
+Ancillary The_Blade_of_Corruption
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description The_Blade_of_Corruptiond_desc
+    EffectsDescription The_Blade_of_Corruption_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Blade_of_Corruption_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Blade_of_Corruption chance  100
+
+;-------------------------------------------------------
+
+
+{The_Blade_of_Corruption}The Blade of Corruption
+{The_Blade_of_Corruption_desc}The Blade of Corruption has long been a treasured artefact from the days when Clan Pestilens haunted the lands of Lustria. This sword has been left for 13 days in the dreaded Cauldron of One Thousand Poxes. A vile weapon, it has a long wavy edge and drips a foul green fluid from its tip. The Skaven whisper that this weapon was forged in the earliest days of Skaven history and was cooled in the blood of Slann.
+{The_Blade_of_Corruption_effects_desc}stuff
+
+The_Blade_of_Corruption
+The_Blade_of_Corruption_desc
+The_Blade_of_Corruption_effects_desc
+#####################################################################################################################
+
+Ancillary Weeping_Blade
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Weeping_Bladed_desc
+    EffectsDescription Weeping_Blade_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Weeping_Blade_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Weeping_Blade chance  100
+
+;-------------------------------------------------------
+
+
+{Weeping_Blade}Weeping Blade
+{Weeping_Blade_desc}This weapon weeps a corrosive venom, that can melt through armour to help deliver the poisoned point.
+{Weeping_Blade_effects_desc}stuff
+
+Weeping_Blade
+Weeping_Blade_desc
+Weeping_Blade_effects_desc
+#####################################################################################################################
+
+Ancillary Dwarfbane
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Dwarfbaned_desc
+    EffectsDescription Dwarfbane_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Dwarfbane_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Dwarfbane chance  100
+
+;-------------------------------------------------------
+
+
+{Dwarfbane}Dwarfbane
+{Dwarfbane_desc}Many weapons have been forged during the wars to wrest the World's Edge Mountains from the Dwarfs. Each is cruelly barbed and deadly.
+{Dwarfbane_effects_desc}stuff
+
+Dwarfbane
+Dwarfbane_desc
+Dwarfbane_effects_desc
+#####################################################################################################################
+
+Ancillary Blade_of_Nurglitch
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Blade_of_Nurglitchd_desc
+    EffectsDescription Blade_of_Nurglitch_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Blade_of_Nurglitch_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Blade_of_Nurglitch chance  100
+
+;-------------------------------------------------------
+
+
+{Blade_of_Nurglitch}Blade of Nurglitch
+{Blade_of_Nurglitch_desc}Blessed by the special ointments of the Plaguelords, these blades are filth-encrusted. Even a scratch from such a rusty weapon can turn into instant infection.
+{Blade_of_Nurglitch_effects_desc}stuff
+
+Blade_of_Nurglitch
+Blade_of_Nurglitch_desc
+Blade_of_Nurglitch_effects_desc
+#####################################################################################################################
+
+Ancillary Foul_Pendant
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Foul_Pendantd_desc
+    EffectsDescription Foul_Pendant_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Foul_Pendant_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Foul_Pendant chance  100
+
+;-------------------------------------------------------
+
+
+{Foul_Pendant}Foul Pendant
+{Foul_Pendant_desc}Gifts from the Council of Thirteen to their most dedicated and accomplished followers, Foul Pendants often switch hands soon after they are awarded. They are tokens in the form of a simple rat skull strung upon an iron chain. Skaven who are blessed with a Foul Pendant are often singled out for special treatment by jealous rivals and covetous allies.[1a] They take many forms - ratskull tokens, raw chunks of warpstone, or items bearing Skaven runes of power.
+{Foul_Pendant_effects_desc}stuff
+
+Foul_Pendant
+Foul_Pendant_desc
+Foul_Pendant_effects_desc
+#####################################################################################################################
+
+Ancillary Worlds_Edge_Armour
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Worlds_Edge_Armourd_desc
+    EffectsDescription Worlds_Edge_Armour_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Worlds_Edge_Armour_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Worlds_Edge_Armour chance  100
+
+;-------------------------------------------------------
+
+
+{Worlds_Edge_Armour}World's Edge Armour
+{Worlds_Edge_Armour_desc}Many suits of Dwarf-forged gromril have fallen into the clutches of the Skaven. These mastercrafted pieces of plate are often recrafted to make a patchwork protection with other pieces of scavenged armour.
+{Worlds_Edge_Armour_effects_desc}stuff
+
+Worlds_Edge_Armour
+Worlds_Edge_Armour_desc
+Worlds_Edge_Armour_effects_desc
+#####################################################################################################################
+
+Ancillary Brass_Orb
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Brass_Orbd_desc
+    EffectsDescription Brass_Orb_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Brass_Orb_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Brass_Orb chance  100
+
+;-------------------------------------------------------
+
+
+{Brass_Orb}Brass Orb
+{Brass_Orb_desc}A fist-sized metal orb of interlinking whirling cogs, the Brass Orb is a dangerous device capable of opening a crack in the plane of reality, sucking those in its blast vicinity into the twisting Realm of Chaos. It is only used by Clan Skryre.
+{Brass_Orb_effects_desc}stuff
+
+Brass_Orb
+Brass_Orb_desc
+Brass_Orb_effects_desc
+#####################################################################################################################
+
+Ancillary Death_Globe
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Death_Globed_desc
+    EffectsDescription Death_Globe_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Death_Globe_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Death_Globe chance  100
+
+;-------------------------------------------------------
+
+
+{Death_Globe}Death Globe
+{Death_Globe_desc}The Death Globe is a Poisoned-Wind Globe of an even more potent variety, able to release great volumes of deadly gas. It is only used by Clan Skryre.
+{Death_Globe_effects_desc}stuff
+
+Death_Globe
+Death_Globe_desc
+Death_Globe_effects_desc
+#####################################################################################################################
+
+Ancillary Plague_Banner
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Plague_Bannerd_desc
+    EffectsDescription Plague_Banner_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Plague_Banner_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Plague_Banner chance  100
+
+;-------------------------------------------------------
+
+
+{Plague_Banner}Plague Banner
+{Plague_Banner_desc}This foul, dripping and disease ridden banner invigorates the Plague Monks to a new rabid ferocity.
+{Plague_Banner_effects_desc}stuff
+
+Plague_Banner
+Plague_Banner_desc
+Plague_Banner_effects_desc
+#####################################################################################################################
+
+Ancillary Shadow_Magnet_Trinket
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Shadow_Magnet_Trinketd_desc
+    EffectsDescription Shadow_Magnet_Trinket_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Shadow_Magnet_Trinket_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Shadow_Magnet_Trinket chance  100
+
+;-------------------------------------------------------
+
+
+{Shadow_Magnet_Trinket}Shadow Magnet Trinket
+{Shadow_Magnet_Trinket_desc}Some warpstone-contaminated veins of ore develop the strange property of absorbing light, thus a radius of shadowy darkness forms around the metal.
+{Shadow_Magnet_Trinket_effects_desc}stuff
+
+Shadow_Magnet_Trinket
+Shadow_Magnet_Trinket_desc
+Shadow_Magnet_Trinket_effects_desc
+#####################################################################################################################
+
+Ancillary Shield_of_Distraction
+    Type sheild
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Shield_of_Distractiond_desc
+    EffectsDescription Shield_of_Distraction_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Shield_of_Distraction_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Shield_of_Distraction chance  100
+
+;-------------------------------------------------------
+
+
+{Shield_of_Distraction}Shield of Distraction
+{Shield_of_Distraction_desc}Grimy and ill-kept, the Shield of Distraction bears tainted hides, grisly trophies, or runes that are painful to look upon.
+{Shield_of_Distraction_effects_desc}stuff
+
+Shield_of_Distraction
+Shield_of_Distraction_desc
+Shield_of_Distraction_effects_desc
+#####################################################################################################################
+
+Ancillary Sacred_Banner_of_the_Horned
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Sacred_Banner_of_the_Hornedd_desc
+    EffectsDescription Sacred_Banner_of_the_Horned_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Sacred_Banner_of_the_Horned_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Sacred_Banner_of_the_Horned chance  100
+
+;-------------------------------------------------------
+
+
+{Sacred_Banner_of_the_Horned}Sacred Banner of the Horned Rat
+{Sacred_Banner_of_the_Horned_desc}Rendered in pigments distilled from blood and warpstone, this banner has become a tapestry of dread and evil. The runes seem to twist and move so that it can be read, in any language - "Gaze into the eyes of the Great Horned Rat and despair".
+{Sacred_Banner_of_the_Horned_effects_desc}stuff
+
+Sacred_Banner_of_the_Horned
+Sacred_Banner_of_the_Horned_desc
+Sacred_Banner_of_the_Horned_effects_desc
+#####################################################################################################################
+
+Ancillary Skalm
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
+    Description Skalmd_desc
+    EffectsDescription Skalm_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Skalm_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType skaven
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Skalm chance  100
+
+;-------------------------------------------------------
+
+
+{Skalm}Skalm
+{Skalm_desc}The foul-smelling substance known as skalm is smeared on wound to unnaturally accelerate the healing process. Enough of the substance is even rumoured to prolong a Skaven's life - perhaps explaining the unnatural longevity of the current members of the Council of Thirteen.[
+{Skalm_effects_desc}stuff
+
+Skalm
+Skalm_desc
+Skalm_effects_desc
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+
+*========================================================Oger Kingdomes==============================================================
+
+Ancillary Thundermace
+    Type swords
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Thundermace_desc
+    EffectsDescription Thundermace_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Thundermace_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Thundermace chance  100
+
+;-------------------------------------------------------
+
+
+{Thundermace}Thundermace
+{Thundermace_desc}A legendary weapon of old, the Thundermace is made from a great hunk taken from an unfeasibly large foundation stone from the base of a skycastle. The great weaponhead is bound with meteoric iron onto a long, stout tree trunk. When brought down over the head, the accumulated force of several tons of masonry explodes outward from the point of impact. It is said that the rumbling aftershocks of a blow from the Thundermace can be heard for miles and there have been several times in its storied history when particularly prodigious blows have started avalanches.
+{Thundermace_effects_desc}stuff
+
+Thundermace
+Thundermace_desc
+Thundermace_effects_desc
+#####################################################################################################################
+
+Ancillary Rune_Maw
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Rune_Maw_desc
+    EffectsDescription Rune_Maw_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Rune_Maw_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Rune_Maw chance  100
+
+;-------------------------------------------------------
+
+
+{Rune_Maw}Rune Maw
+{Rune_Maw_desc}Anointed with gore by Butchers, hung with runic items captured from the Dwarfs, and draped with numerous other tribal trophies, a Rune Maw constantly emits a low growl. When the banner detects a magical attack, that rumble rises to a predatory roar and, glowing bright, the banner emits a deafening belch that deflects the magic of the spell, causing it to hit elsewhere.
+{Rune_Maw_effects_desc}stuff
+
+Rune_Maw
+Rune_Maw_desc
+Rune_Maw_effects_desc
+#####################################################################################################################
+
+Ancillary Rock_Eye
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Rock_Eye_desc
+    EffectsDescription Rock_Eye_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Rock_Eye_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Rock_Eye chance  100
+
+;-------------------------------------------------------
+
+
+{Rock_Eye}Rock Eye
+{Rock_Eye_desc}An Ogre with a Rock Eye has cast one of his own eyes into the Great Maw and replaced it with a rough pebble taken from the parched grounds around the vast pit. So the rock doesn't fall out, an Ogre will choose a large one and hammer it into place. Once properly fitted, the bearer gains a second sight - able to focus his stony gaze and glimpse into the unknown, seeing that which can't be seen.
+{Rock_Eye_effects_desc}stuff
+
+Rock_Eye
+Rock_Eye_desc
+Rock_Eye_effects_desc
+#####################################################################################################################
+
+Ancillary Hellheart
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Hellheart_desc
+    EffectsDescription Hellheart_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Hellheart_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Hellheart chance  100
+
+;-------------------------------------------------------
+
+
+{Hellheart}Hellheart
+{Hellheart_desc}Butchers especially covet the ichor-soaked hearts of Chaos Spawn that were once mighty Chaos Sorcerers. As the fickle powers of the Dark Gods still reside in such foul organs, a Butcher that can swallow a heart whole can, with a single loud and disgusting belch, issue forth a swirling vortex of magical anarchy. Such a maelstrom is not only malodorous, but will also play havoc with any nearby enemy wizards, subjecting their minds to dangerous currents of deadly magic.
+{Hellheart_effects_desc}stuff
+
+Hellheart
+Hellheart_desc
+Hellheart_effects_desc
+#####################################################################################################################
+
+Ancillary Gut_Maw
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Gut_Maw_desc
+    EffectsDescription Gut_Maw_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Gut_Maw_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Gut_Maw chance  100
+
+;-------------------------------------------------------
+
+
+{Gut_Maw}Gut Maw
+{Gut_Maw_desc}The Gut Maw is a polished brass gut-plate with a set of huge iron jaws attached to it, blessed by several generations of Butchers and passed through clan to clan. Its jaws can open wide and swallow a foe in battle, and according to Ogres, the victim passes straight through and into the Great Maw itself. There it is consumed and the life force of those ingested by the Gut Maw is passed on to bolster its wearer.
+{Gut_Maw_effects_desc}stuff
+
+Gut_Maw
+Gut_Maw_desc
+Gut_Maw_effects_desc
+#####################################################################################################################
+
+Ancillary Greedy_Fist
+    Type swords
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Greedy_Fist_desc
+    EffectsDescription Greedy_Fist_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Greedy_Fist_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Greedy_Fist chance  100
+
+;-------------------------------------------------------
+
+
+{Greedy_Fist}Greedy Fist
+{Greedy_Fist_desc}All Ogres are in awe of the near-sentient gauntlet known as the Greedy Fist. On great occasions, but always after an especially monumental feat of violence occurs in a tribe's maw-pit - such as a spectacular guts-out challenge for Tyranthood or a particularly brutal pit-fight - a strange and wondrous thing has been known to happen. From out of the bones and broken bits that gather in the corners of any maw-pit, crawls a black ironfist, moving on its own, its articulated finger joints pulling it across the bloody ground. With punch-spikes of iron and tusk embedded into the knuckles, the formidable weapon drags itself to a worthy Ogre who may then claim it for a time.
+{Greedy_Fist_effects_desc}stuff
+
+Greedy_Fist
+Greedy_Fist_desc
+Greedy_Fist_effects_desc
+#####################################################################################################################
+
+Ancillary Dragonhide_Banner
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Dragonhide_Banner_desc
+    EffectsDescription Dragonhide_Banner_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Dragonhide_Banner_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Dragonhide_Banner chance  100
+
+;-------------------------------------------------------
+
+
+{Dragonhide_Banner}Dragonhide Banner
+{Dragonhide_Banner_desc}When Greasus Goldtooth slew the ice drake Jaugrel, that great beast's hide was stripped away. It took a full two dozen Ogres to lift that mighty skin and haul it back to the halls of the Overtyrant. Since that day, the vast hide has been cut up and put to many different uses - the most famous of which is the Dragonhide Banner, or just Dragonhide[1a]. Although still reeking from the stench of that decaying wyrm, the banner is said to pass on some of its former owner's legendary ferocity and is wreathed in chill winds. Those that fight beneath it certainly believe in its power and glory.
+{Dragonhide_Banner_effects_desc}stuff
+
+Dragonhide_Banner
+Dragonhide_Banner_desc
+Dragonhide_Banner_effects_desc
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+*========================================================Kislev==============================================================
+
+Ancillary Aromour_of_Alexandr
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Aromour_of_Alexandr_desc
+    EffectsDescription Aromour_of_Alexandr_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Aromour_of_Alexandr_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Aromour_of_Alexandr chance  100
+
+;-------------------------------------------------------
+
+
+{Aromour_of_Alexandr}Aromour of Alexandr
+{Aromour_of_Alexandr_desc}This armour was made for the tzar Alexandr Njevski by dwarfs. It is a chainmail of unrivalled beauty and strength, and every link of the armour is incribed with the words "Gods are with us and thus we cannot fail." Tzar Alexandr was never wounded while wearing this armour.
+{Aromour_of_Alexandr_effects_desc}stuff
+
+Aromour_of_Alexandr
+Aromour_of_Alexandr_desc
+Aromour_of_Alexandr_effects_desc
+#####################################################################################################################
+
+Ancillary The_Holy_Axe_of_Miska
+    Type banner
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description The_Holy_Axe_of_Miska_desc
+    EffectsDescription The_Holy_Axe_of_Miska_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Holy_Axe_of_Miska_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Holy_Axe_of_Miska chance  100
+
+;-------------------------------------------------------
+
+
+{The_Holy_Axe_of_Miska}The Holy Axe of Miska
+{The_Holy_Axe_of_Miska_desc}This axe was made by Miska the Slaughterer for her second husband (first one was killed and eaten by Miska in her fury), Mihail Gregorov. It is an exceedingly heavy weapon, and it`s strikes leave destruction in their wake.
+{The_Holy_Axe_of_Miska_effects_desc}stuff
+
+The_Holy_Axe_of_Miska
+The_Holy_Axe_of_Miska_desc
+The_Holy_Axe_of_Miska_effects_desc
+#####################################################################################################################
+
+Ancillary Apple_of_the_Kislev
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Apple_of_the_Kislev_desc
+    EffectsDescription Apple_of_the_Kislev_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Apple_of_the_Kislev_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Apple_of_the_Kislev chance  100
+
+;-------------------------------------------------------
+
+
+{Apple_of_the_Kislev}Apple of the Kislev
+{Apple_of_the_Kislev_desc}The apple of Kislev is a stunningly beautiful piece of jewelry, and it is the traditional symbol of the ruler of Kislev. The tzar or tzarina may give it to his or her representative, giving the fortunate bojar or general an outstanding status. Ruler might also carry it to the battle on his/her person.
+{Apple_of_the_Kislev_effects_desc}stuff
+
+Apple_of_the_Kislev
+Apple_of_the_Kislev_desc
+Apple_of_the_Kislev_effects_desc
+#####################################################################################################################
+
+Ancillary Boots_of_the_Seven_Leagues
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Boots_of_the_Seven_Leagues_desc
+    EffectsDescription Boots_of_the_Seven_Leagues_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Boots_of_the_Seven_Leagues_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Boots_of_the_Seven_Leagues chance  100
+
+;-------------------------------------------------------
+
+
+{Boots_of_the_Seven_Leagues}Boots of the Seven Leagues
+{Boots_of_the_Seven_Leagues_desc}Young prince Ivan used these boots to escape the dreaded Sorcerer Koshei the Immortal when he rescued Vasilisa the Wise from his clutches. 
+{Boots_of_the_Seven_Leagues_effects_desc}stuff
+
+Boots_of_the_Seven_Leagues
+Boots_of_the_Seven_Leagues_desc
+Boots_of_the_Seven_Leagues_effects_desc
+#####################################################################################################################
+
+Ancillary Ice_Armour_of_Jekaterina
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description Ice_Armour_of_Jekaterina_desc
+    EffectsDescription Ice_Armour_of_Jekaterina_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Ice_Armour_of_Jekaterina_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary Ice_Armour_of_Jekaterina chance  100
+
+;-------------------------------------------------------
+
+
+{Ice_Armour_of_Jekaterina}Ice-Armour of Jekaterina
+{Ice_Armour_of_Jekaterina_desc}This enchanting armour was fashioned out of pure magic and ice by the Tzarina Jekaterina III. It is enchanted against physical damage, but a very powerful blow may shatter it.
+{Ice_Armour_of_Jekaterina_effects_desc}stuff
+
+Ice_Armour_of_Jekaterina
+Ice_Armour_of_Jekaterina_desc
+Ice_Armour_of_Jekaterina_effects_desc
+#####################################################################################################################
+
+Ancillary The_Flying_Mortar
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
+    Description The_Flying_Mortar_desc
+    EffectsDescription The_Flying_Mortar_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Flying_Mortar_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType ogres
+          and IsGeneral
+          and Attribute Command > 3
+    AcquireAncillary The_Flying_Mortar chance  100
+
+;-------------------------------------------------------
+
+
+{The_Flying_Mortar}The Flying Mortar
+{The_Flying_Mortar_desc}It is very common for Kislevite Mages to enchant this simple household tool to give them the ability to fly.
+{The_Flying_Mortar_effects_desc}stuff
+
+The_Flying_Mortar
+The_Flying_Mortar_desc
+The_Flying_Mortar_effects_desc
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+*========================================================Bretonnia=================================================================
+Ancillary Gromril_Great_Helm 
+    Type helmet
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Gromril_Great_Helmd_desc
+    EffectsDescription Gromril_Great_Helm_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Gromril_Great_Helm_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Gromril_Great_Helm chance  100
+
+;-------------------------------------------------------
+
+
+{Gromril_Great_Helm}Gromril Great Helm
+{Gromril_Great_Helm_desc}The ornate Gromril Great Helm was a gift from Dwarf King Grundhar Irongut after a group of Questing Knights broke a Greenskin siege of Karaz-a-Karak. It bears a potent rune of protection and in its long history it has never been tarnished.
+{Gromril_Great_Helm_effects_desc}stuff
+
+Gromril_Great_Helm
+Gromril_Great_Helm_desc
+Gromril_Great_Helm_effects_desc
+#####################################################################################################################
+
+Ancillary Cuirass_of_Fortune
+    Type armor
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Cuirass_of_Fortuned_desc
+    EffectsDescription Cuirass_of_Fortune_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Cuirass_of_Fortune_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Cuirass_of_Fortune chance  100
+
+;-------------------------------------------------------
+
+
+{Cuirass_of_Fortune}Cuirass of Fortune
+{Cuirass_of_Fortune_desc}The Cuirass of Fortune is a remarkable piece of equipment forged by the mad artificer Gurdilloue the Blatantly Insane. Any who possess the armour not only find their blows more accurate, but also enjoy the favour of maidens and oddly generous merchants.
+{Cuirass_of_Fortune_effects_desc}stuff
+
+Cuirass_of_Fortune
+Cuirass_of_Fortune_desc
+Cuirass_of_Fortune_effects_desc
+#####################################################################################################################
+
+Ancillary Mantle_of_Damsel_Elena
+    Type cloak
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Mantle_of_Damsel_Elenad_desc
+    EffectsDescription Mantle_of_Damsel_Elena_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Mantle_of_Damsel_Elena_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Mantle_of_Damsel_Elena chance  100
+
+;-------------------------------------------------------
+
+
+{Mantle_of_Damsel_Elena}Mantle of Damsel Elena
+{Mantle_of_Damsel_Elena_desc}Legend has it that Elena continued fighting the Orc Warlord Aghdrac even though she had lost her sword, one eye and most of her lifeblood. This mantle is said to retain the beat of Elena's fiery passion and her indomitable will to succeed despite the most grievous injuries.[.
+{Mantle_of_Damsel_Elena_effects_desc}stuff
+
+Mantle_of_Damsel_Elena
+Mantle_of_Damsel_Elena_desc
+Mantle_of_Damsel_Elena_effects_desc
+#####################################################################################################################
+
+Ancillary Falcon_horn_of_Fredemund
+    Type Item
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Falcon_horn_of_Fredemundd_desc
+    EffectsDescription Falcon_horn_of_Fredemund_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Falcon_horn_of_Fredemund_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Falcon_horn_of_Fredemund chance  100
+
+;-------------------------------------------------------
+
+
+{Falcon_horn_of_Fredemund}Falcon-horn of Fredemund
+{Falcon_horn_of_Fredemund_desc}This ancient horn was once used by the Grail Companion, Duke Fredemund of Aquitaine. When blown, this horn emits a piercing cry, and the skies become filled with all manner of birds, in memory of the great man.
+{Falcon_horn_of_Fredemund_effects_desc}stuff
+
+Falcon_horn_of_Fredemund
+Falcon_horn_of_Fredemund_desc
+Falcon_horn_of_Fredemund_effects_desc
+#####################################################################################################################
+
+Ancillary Ruby_Goblet
+    Type ale
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Ruby_Gobletd_desc
+    EffectsDescription Ruby_Goblet_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Ruby_Goblet_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Ruby_Goblet chance  100
+
+;-------------------------------------------------------
+
+
+{Ruby_Goblet}Ruby Goblet
+{Ruby_Goblet_desc}The Ruby Goblet is an ancient artefact reclaimed from the castle of the Red Duke. If so much as a drop of blood spilled in anger touches the goblet, it throws a red-hued protective aura around its bearers.
+{Ruby_Goblet_effects_desc}stuff
+
+Ruby_Goblet
+Ruby_Goblet_desc
+Ruby_Goblet_effects_desc
+#####################################################################################################################
+
+Ancillary Mane_of_the_Purebreed
+    Type steed
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Mane_of_the_Purebreedd_desc
+    EffectsDescription Mane_of_the_Purebreed_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Mane_of_the_Purebreed_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Mane_of_the_Purebreed chance  100
+
+;-------------------------------------------------------
+
+
+{Mane_of_the_Purebreed}Mane of the Purebreed
+{Mane_of_the_Purebreed_desc}The mane of Gilles' faithful steed is a revered relic of Bretonnia. Strands of this precious artefact can be woven into a horse's mane, conferring the strength and fortitude of the Lord of all Horses onto one of his bloodline.
+{Mane_of_the_Purebreed_effects_desc}stuff
+
+Mane_of_the_Purebreed
+Mane_of_the_Purebreed_desc
+Mane_of_the_Purebreed_effects_desc
+#####################################################################################################################
+
+Ancillary Tress_of_Isoulde
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Tress_of_Isoulded_desc
+    EffectsDescription Tress_of_Isoulde_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Tress_of_Isoulde_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Tress_of_Isoulde chance  100
+
+;-------------------------------------------------------
+
+
+{Tress_of_Isoulde}Tress of Isoulde
+{Tress_of_Isoulde_desc}Isoulde, a damsel known for her terrifying wrath towards the foes of Bretonnia, imbued this delicate braid of her hair with enchantments of vengeance and righteous anger.
+{Tress_of_Isoulde_effects_desc}stuff
+
+Tress_of_Isoulde
+Tress_of_Isoulde_desc
+Tress_of_Isoulde_effects_desc
+#####################################################################################################################
+
+Ancillary Sword_of_the_Ladys_Champion
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Sword_of_the_Ladys_Championd_desc
+    EffectsDescription Sword_of_the_Ladys_Champion_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Sword_of_the_Ladys_Champion_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Sword_of_the_Ladys_Champion chance  100
+
+;-------------------------------------------------------
+
+
+{Sword_of_the_Ladys_Champion}Sword of the Lady's Champion
+{Sword_of_the_Ladys_Champion_desc}On the eve of battle, a Grail Knight that kneels to pray beside a body of still water may be rewarded with the vision of a pale, slender hand emerging from the water, with the beautiful blade known as the Sword of the Lady's Champion grasped within its delicate fingers.
+{Sword_of_the_Ladys_Champion_effects_desc}stuff
+
+Sword_of_the_Ladys_Champion
+Sword_of_the_Ladys_Champion_desc
+Sword_of_the_Ladys_Champion_effects_desc
+#####################################################################################################################
+
+Ancillary Sword_of_Heroes
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Sword_of_Heroesd_desc
+    EffectsDescription Sword_of_Heroes_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Sword_of_Heroes_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Sword_of_Heroes chance  100
+
+;-------------------------------------------------------
+
+
+{Sword_of_Heroes}Sword of Heroes
+{Sword_of_Heroes_desc}The mighty Sword of Heroes has powerful enchantments against evil bound into it. Forged under the midsummer sun and quenched in manticore's blood, its long and bloody history has seen its wielders kill enough fantastical creatures to fill Leoncoeur's menagerie many times over.
+{Sword_of_Heroes_effects_desc}stuff
+
+Sword_of_Heroes
+Sword_of_Heroes_desc
+Sword_of_Heroes_effects_desc
+#####################################################################################################################
+
+Ancillary Heartwood_Lance
+    Type spear
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Heartwood_Lanced_desc
+    EffectsDescription Heartwood_Lance_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Heartwood_Lance_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Heartwood_Lance chance  100
+
+;-------------------------------------------------------
+
+
+{Heartwood_Lance}Heartwood Lance
+{Heartwood_Lance_desc}The Heartwood Lance is crafted from the heart of the Major Oak, the largest tree in Bretonnia, which was shattered by lightning the moment Gilles was struck down. Its blackened wood is covered with tiny carvings depicting the twelve battles of Gilles and, despite being harder than stone and diamond sharp, it is lightweight and beautiful to behold. It is only wielded by mounted members of the Bretonnian military.
+{Heartwood_Lance_effects_desc}stuff
+
+Heartwood_Lance
+Heartwood_Lance_desc
+Heartwood_Lance_effects_desc
+#####################################################################################################################
+
+Ancillary Birth_sword_of_Carcassonne
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Birth_sword_of_Carcassonned_desc
+    EffectsDescription Birth_sword_of_Carcassonne_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Birth_sword_of_Carcassonne_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Birth_sword_of_Carcassonne chance  100
+
+;-------------------------------------------------------
+
+
+{Birth_sword_of_Carcassonne}Birth-sword of Carcassonne
+{Birth_sword_of_Carcassonne_desc}At birth, all noble sons in the Dukedom of Carcassonne are made to touch a specially forged blade, their birth-sword, and this weapon hangs above their cots until they reach an age when they can wield it. This mirrors the story of the original duke, Lambard, who was said to have grasped a sword even before suckling at his mother's bosom.
+{Birth_sword_of_Carcassonne_effects_desc}stuff
+
+Birth_sword_of_Carcassonne
+Birth_sword_of_Carcassonne_desc
+Birth_sword_of_Carcassonne_effects_desc
+#####################################################################################################################
+
+Ancillary Morning_Star_of_Fracasse
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Morning_Star_of_Fracassed_desc
+    EffectsDescription Morning_Star_of_Fracasse_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Morning_Star_of_Fracasse_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Morning_Star_of_Fracasse chance  100
+
+;-------------------------------------------------------
+
+
+{Morning_Star_of_Fracasse}Morning Star of Fracasse
+{Morning_Star_of_Fracasse_desc}The mighty Morning Star of Fracasse has a hatred of magical trickery and unholy artefects inherited from its first owner, Fracasse Langoustine, the Scourge of Araby. It will entangle and ripe a magic weapon from the hands of any foe, unless a spiked orb to the head settles the matter first.
+{Morning_Star_of_Fracasse_effects_desc}stuff
+
+Morning_Star_of_Fracasse
+Morning_Star_of_Fracasse_desc
+Morning_Star_of_Fracasse_effects_desc
+#####################################################################################################################
+
+Ancillary Lance_of_Artois
+    Type spear
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Lance_of_Artoisd_desc
+    EffectsDescription Lance_of_Artois_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Lance_of_Artois_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Lance_of_Artois chance  100
+
+;-------------------------------------------------------
+
+
+{Lance_of_Artois}Lance of Artois
+{Lance_of_Artois_desc}This was the lance used by Folgar of Artois, who became one of Gilles' Grail Companions and was renowned for his skill at the joust. The lance tip remains as sharp as it ever was, despite the passing of time. In times of need, the lance is removed from the Grail Chapel of St. Folgar and bestowed upon a mounted knight for the duration of battle.
+{Lance_of_Artois_effects_desc}stuff
+
+Lance_of_Artois
+Lance_of_Artois_desc
+Lance_of_Artois_effects_desc
+#####################################################################################################################
+
+Ancillary Wyrmlance
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Wyrmlanced_desc
+    EffectsDescription Wyrmlance_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Wyrmlance_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Wyrmlance chance  100
+
+;-------------------------------------------------------
+
+
+{Wyrmlance}Wyrmlance
+{Wyrmlance_desc}Legend has it the lance of Duke Beligulf Fearnought was plunged into the maw of the dragon Malifex just as it was about to spout a great torrent of flame. It is said to have absorbed the power of the dragon's breath and, by uttering the name of the slain dragon, the mounted wielder may unleash this fire at will.
+{Wyrmlance_effects_desc}stuff
+
+Wyrmlance
+Wyrmlance_desc
+Wyrmlance_effects_desc
+#####################################################################################################################
+
+Ancillary Silver_Lance_of_the_Blessed
+    Type spear
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Silver_Lance_of_the_Blessedd_desc
+    EffectsDescription Silver_Lance_of_the_Blessed_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Silver_Lance_of_the_Blessed_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Silver_Lance_of_the_Blessed chance  100
+
+;-------------------------------------------------------
+
+
+{Silver_Lance_of_the_Blessed}Silver Lance of the Blessed
+{Silver_Lance_of_the_Blessed_desc}TForged by Gilles himself, the Silver Lance of the Blessed can only be carried by one who is completely pure of heart. To grasp the lance is said to be the true test of courage and spiritual strength, for an aspirant who is found wanting will be consumed by searing white flame. It is only used by mounted fighters, and never by those on foot.
+{Silver_Lance_of_the_Blessed_effects_desc}stuff
+
+Silver_Lance_of_the_Blessed
+Silver_Lance_of_the_Blessed_desc
+Silver_Lance_of_the_Blessed_effects_desc
+#####################################################################################################################
+
+Ancillary Blessed_Blade_of_Ptra
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Blessed_Blade_of_Ptrad_desc
+    EffectsDescription Blessed_Blade_of_Ptra_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Blessed_Blade_of_Ptra_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Blessed_Blade_of_Ptra chance  100
+
+;-------------------------------------------------------
+
+
+{Blessed_Blade_of_Ptra}Blessed Blade of Ptra
+{Blessed_Blade_of_Ptra_desc}The Blessed Blade of Ptra given to King Settra.
+{Blessed_Blade_of_Ptra_effects_desc}stuff
+
+Blessed_Blade_of_Ptra
+Blessed_Blade_of_Ptra_desc
+Blessed_Blade_of_Ptra_effects_desc
+#####################################################################################################################
