@@ -1,5 +1,5 @@
 *========================================================Tomb Kings=================================================================
-Ancillary Blessed_Blade_of_Ptra
+%Ancillary Blessed_Blade_of_Ptra
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -28,7 +28,7 @@ Blessed_Blade_of_Ptra_effects_desc
 #####################################################################################################################
 
 
-Ancillary Golden_Death_Mask_of_Kharnut
++Ancillary Golden_Death_Mask_of_Kharnut
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -59,7 +59,7 @@ Golden_Death_Mask_of_Kharnut_effects_desc
 
 
 
-Ancillary Cloak_of_the_dunes
++Ancillary Cloak_of_the_dunes
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -90,7 +90,7 @@ Cloak_of_the_dunes_effects_desc
 
 
 
-Ancillary Standard_of_the_Undying_Legion
++Ancillary Standard_of_the_Undying_Legion
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -119,7 +119,7 @@ Standard_of_the_Undying_Legion_desc
 Standard_of_the_Undying_Legion_effects_desc
 #####################################################################################################################
 
-Ancillary Destroyer_of_Eternities
++Ancillary Destroyer_of_Eternities
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -149,7 +149,7 @@ Destroyer_of_Eternities_effects_desc
 #####################################################################################################################
 
 
-Ancillary Blade_of_Antarhak
+%Ancillary Blade_of_Antarhak
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -178,7 +178,7 @@ Blade_of_Antarhak_desc
 Blade_of_Antarhak_effects_desc
 #####################################################################################################################
 
-Ancillary Banner_of_the_Hidden_Dead
++Ancillary Banner_of_the_Hidden_Dead
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -477,7 +477,7 @@ The_Jaguar_Standard_effects_desc
 
 *========================================================Skaven==============================================================
 
-Ancillary Warpmusket
+%Ancillary Warpmusket
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -506,7 +506,7 @@ Warpmusket_desc
 Warpmusket_effects_desc
 #####################################################################################################################
 
-Ancillary Warpstone_Armour
++Ancillary Warpstone_Armour
     Type armor
     Transferable  0
     Image animals_horse.tga
@@ -535,7 +535,7 @@ Warpstone_Armour_desc
 Warpstone_Armour_effects_desc
 #####################################################################################################################
 
-Ancillary Warplock_pistols
+%Ancillary Warplock_pistols
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -564,7 +564,7 @@ Warplock_pistols_desc
 Warplock_pistols_effects_desc
 #####################################################################################################################
 
-Ancillary Fellblade
++Ancillary Fellblade
     Type Sword
     Transferable  0
     Image animals_horse.tga
@@ -593,7 +593,7 @@ Fellblade_desc
 Fellblade_effects_desc
 #####################################################################################################################
 
-Ancillary Warpforged_blade
+%Ancillary Warpforged_blade
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -622,7 +622,7 @@ Warpforged_blade_desc
 Warpforged_blade_effects_desc
 #####################################################################################################################
 
-Ancillary The_Blade_of_Corruption
+%Ancillary The_Blade_of_Corruption
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -651,7 +651,7 @@ The_Blade_of_Corruption_desc
 The_Blade_of_Corruption_effects_desc
 #####################################################################################################################
 
-Ancillary Weeping_Blade
++Ancillary Weeping_Blade
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -680,7 +680,7 @@ Weeping_Blade_desc
 Weeping_Blade_effects_desc
 #####################################################################################################################
 
-Ancillary Dwarfbane
++Ancillary Dwarfbane
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -709,7 +709,7 @@ Dwarfbane_desc
 Dwarfbane_effects_desc
 #####################################################################################################################
 
-Ancillary Blade_of_Nurglitch
+%Ancillary Blade_of_Nurglitch
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -738,7 +738,7 @@ Blade_of_Nurglitch_desc
 Blade_of_Nurglitch_effects_desc
 #####################################################################################################################
 
-Ancillary Foul_Pendant
++Ancillary Foul_Pendant
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -767,7 +767,7 @@ Foul_Pendant_desc
 Foul_Pendant_effects_desc
 #####################################################################################################################
 
-Ancillary Worlds_Edge_Armour
+%Ancillary Worlds_Edge_Armour
     Type armor
     Transferable  0
     Image animals_horse.tga
@@ -796,7 +796,7 @@ Worlds_Edge_Armour_desc
 Worlds_Edge_Armour_effects_desc
 #####################################################################################################################
 
-Ancillary Brass_Orb
++Ancillary Brass_Orb
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -825,7 +825,7 @@ Brass_Orb_desc
 Brass_Orb_effects_desc
 #####################################################################################################################
 
-Ancillary Death_Globe
+%Ancillary Death_Globe
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -854,7 +854,7 @@ Death_Globe_desc
 Death_Globe_effects_desc
 #####################################################################################################################
 
-Ancillary Plague_Banner
+%Ancillary Plague_Banner
     Type banner
     Transferable  0
     Image animals_horse.tga
@@ -883,7 +883,7 @@ Plague_Banner_desc
 Plague_Banner_effects_desc
 #####################################################################################################################
 
-Ancillary Shadow_Magnet_Trinket
+%Ancillary Shadow_Magnet_Trinket
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -912,7 +912,7 @@ Shadow_Magnet_Trinket_desc
 Shadow_Magnet_Trinket_effects_desc
 #####################################################################################################################
 
-Ancillary Shield_of_Distraction
+%Ancillary Shield_of_Distraction
     Type sheild
     Transferable  0
     Image animals_horse.tga
@@ -941,7 +941,7 @@ Shield_of_Distraction_desc
 Shield_of_Distraction_effects_desc
 #####################################################################################################################
 
-Ancillary Sacred_Banner_of_the_Horned
++Ancillary Sacred_Banner_of_the_Horned
     Type banner
     Transferable  0
     Image animals_horse.tga
@@ -970,7 +970,7 @@ Sacred_Banner_of_the_Horned_desc
 Sacred_Banner_of_the_Horned_effects_desc
 #####################################################################################################################
 
-Ancillary Skalm
++Ancillary Skalm
     Type banner
     Transferable  0
     Image animals_horse.tga
@@ -1410,7 +1410,7 @@ The_Flying_Mortar_effects_desc
 
 
 *========================================================Bretonnia=================================================================
-Ancillary Gromril_Great_Helm 
++Ancillary Gromril_Great_Helm 
     Type helmet
     Transferable  0
     Image animals_horse.tga
@@ -1438,7 +1438,7 @@ Gromril_Great_Helm_desc
 Gromril_Great_Helm_effects_desc
 #####################################################################################################################
 
-Ancillary Cuirass_of_Fortune
+%Ancillary Cuirass_of_Fortune
     Type armor
     Transferable  0
     Image animals_horse.tga
@@ -1466,7 +1466,7 @@ Cuirass_of_Fortune_desc
 Cuirass_of_Fortune_effects_desc
 #####################################################################################################################
 
-Ancillary Mantle_of_Damsel_Elena
+%Ancillary Mantle_of_Damsel_Elena
     Type cloak
     Transferable  0
     Image animals_horse.tga
@@ -1494,7 +1494,7 @@ Mantle_of_Damsel_Elena_desc
 Mantle_of_Damsel_Elena_effects_desc
 #####################################################################################################################
 
-Ancillary Falcon_horn_of_Fredemund
++Ancillary Falcon_horn_of_Fredemund
     Type Item
     Transferable  0
     Image animals_horse.tga
@@ -1522,7 +1522,7 @@ Falcon_horn_of_Fredemund_desc
 Falcon_horn_of_Fredemund_effects_desc
 #####################################################################################################################
 
-Ancillary Ruby_Goblet
++Ancillary Ruby_Goblet
     Type ale
     Transferable  0
     Image animals_horse.tga
@@ -1578,7 +1578,7 @@ Mane_of_the_Purebreed_desc
 Mane_of_the_Purebreed_effects_desc
 #####################################################################################################################
 
-Ancillary Tress_of_Isoulde
+%Ancillary Tress_of_Isoulde
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1606,7 +1606,7 @@ Tress_of_Isoulde_desc
 Tress_of_Isoulde_effects_desc
 #####################################################################################################################
 
-Ancillary Sword_of_the_Ladys_Champion
++Ancillary Sword_of_the_Ladys_Champion
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1634,7 +1634,7 @@ Sword_of_the_Ladys_Champion_desc
 Sword_of_the_Ladys_Champion_effects_desc
 #####################################################################################################################
 
-Ancillary Sword_of_Heroes
+%Ancillary Sword_of_Heroes
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1662,7 +1662,7 @@ Sword_of_Heroes_desc
 Sword_of_Heroes_effects_desc
 #####################################################################################################################
 
-Ancillary Heartwood_Lance
+%Ancillary Heartwood_Lance
     Type spear
     Transferable  0
     Image animals_horse.tga
@@ -1690,7 +1690,7 @@ Heartwood_Lance_desc
 Heartwood_Lance_effects_desc
 #####################################################################################################################
 
-Ancillary Birth_sword_of_Carcassonne
+%Ancillary Birth_sword_of_Carcassonne
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1718,7 +1718,7 @@ Birth_sword_of_Carcassonne_desc
 Birth_sword_of_Carcassonne_effects_desc
 #####################################################################################################################
 
-Ancillary Morning_Star_of_Fracasse
+%Ancillary Morning_Star_of_Fracasse
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1746,7 +1746,7 @@ Morning_Star_of_Fracasse_desc
 Morning_Star_of_Fracasse_effects_desc
 #####################################################################################################################
 
-Ancillary Lance_of_Artois
+%Ancillary Lance_of_Artois
     Type spear
     Transferable  0
     Image animals_horse.tga
@@ -1774,7 +1774,7 @@ Lance_of_Artois_desc
 Lance_of_Artois_effects_desc
 #####################################################################################################################
 
-Ancillary Wyrmlance
+%Ancillary Wyrmlance
     Type sword
     Transferable  0
     Image animals_horse.tga
@@ -1802,7 +1802,7 @@ Wyrmlance_desc
 Wyrmlance_effects_desc
 #####################################################################################################################
 
-Ancillary Silver_Lance_of_the_Blessed
++Ancillary Silver_Lance_of_the_Blessed
     Type spear
     Transferable  0
     Image animals_horse.tga
@@ -1856,4 +1856,213 @@ Ancillary Blessed_Blade_of_Ptra
 Blessed_Blade_of_Ptra
 Blessed_Blade_of_Ptra_desc
 Blessed_Blade_of_Ptra_effects_desc
+#####################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+*========================================================Wood Elves==============================================================
+
+Ancillary The_Spirit_Sword
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description The_Spirit_Swordd_desc
+    EffectsDescription The_Spirit_Sword_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Spirit_Sword_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary The_Spirit_Sword chance  100
+
+;-------------------------------------------------------
+
+
+{The_Spirit_Sword}The Spirit Sword
+{The_Spirit_Sword_desc}The Spirit Sword was crafted from the same crystal as the waystones stationed around the Wildwood. Within it are bound a host of nebulous entities, once the most feared denizens of that benighted place. These doomed creatures grant the Sprit Sword its power, for when the weapon draws blood, the wielder can command them to consume his opponent’s very soul. There is no defence against such a fate save force of will. If the victim’s mind is strong enough, he can perhaps resist the power of the sword, at least for a time, but no one can resist the Spirit Sword indefinitely.
+{The_Spirit_Sword_effects_desc}stuff
+
+The_Spirit_Sword
+The_Spirit_Sword_desc
+The_Spirit_Sword_effects_desc
+#####################################################################################################################
+
+Ancillary Daiths_Reaper
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Daiths_Reaperd_desc
+    EffectsDescription Daiths_Reaper_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Daiths_Reaper_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Daiths_Reaper chance  100
+
+;-------------------------------------------------------
+
+
+{Daiths_Reaper}Daith's Reaper
+{Daiths_Reaper_desc}The weapon known as Daith's Reaper is a magical artefact, forged by the legendary Daith, from a shard of Khaine's Widowmaker
+During the war between the Elven pantheon and the Chaos Gods, Khaine and Slaanesh soon came to blows. Though Khaine was ultimately cast into the mortal realm, he inflicted great harm upon the Dark Prince, and gouged onto his otherwise perfect face a scar that has never fully healed. During that battle, a small shard was struck from Khaine’s Widowmaker, and fell upon the realm later known as Athel Loren. It is this shard, reforged and reshaped, that forms the spine of Daith’s Reaper, a weapon that many Elves hold to be the smith’s finest work.
+{Daiths_Reaper_effects_desc}stuff
+
+Daiths_Reaper
+Daiths_Reaper_desc
+Daiths_Reaper_effects_desc
+#####################################################################################################################
+
+Ancillary The_Bow_of_Loren
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description The_Bow_of_Lorend_desc
+    EffectsDescription The_Bow_of_Loren_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Bow_of_Loren_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary The_Bow_of_Loren chance  100
+
+;-------------------------------------------------------
+
+
+{The_Bow_of_Loren}The Bow of Loren
+{The_Bow_of_Loren_desc}Never closer to death has Ariel come than during the assault on Ghrond, when an assassin’s knife would have taken her heart, but for the timely intervention and peerless aim of Galed, an archer of Lady Morgalla’s household. As reward for this heroic deed, Galed sought only a single perfect hair from his queen’s head. This he ever after used to string his enchanted longbow, transforming an already exceptional weapon into a hunter’s tool worthy of mighty Kurnous himself.
+{The_Bow_of_Loren_effects_desc}stuff
+
+The_Bow_of_Loren
+The_Bow_of_Loren_desc
+The_Bow_of_Loren_effects_desc
+#####################################################################################################################
+
+Ancillary Helm_of_the_Hunt
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Helm_of_the_Huntd_desc
+    EffectsDescription Helm_of_the_Hunt_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Helm_of_the_Hunt_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Helm_of_the_Hunt chance  100
+
+;-------------------------------------------------------
+
+
+{Helm_of_the_Hunt}Helm of the Hunt
+{Helm_of_the_Hunt_desc}Gwythraul, Lord of Nine Crags, is a celebrated figure in Athel Loren, his deeds recounted as a mixture of history and wine blurred myth. Bidden to journey within the Dreaming Wood by the goddess Lileath, he first travelled the twelve realms in search of enchanted treasures that would ensure survival in that Daemon-haunted land. In each realm, Gwythraul performed a quest of the ruler’s choosing, deeds ranging from the destruction of Beastlord Brokar, to altering the course of the River Brilienne. Laden with magical heirlooms, Gwythraul at last entered the Dreaming Wood, and was lost for many generations. Only one item — the Helm of the Hunt, Orion’s last remnant of a mortal life — survived Gwythraul’s journey, and only the bravest have dared don it thereafter. Legend counts Gwythraul’s quest as successful, though it is silent on its goal, and on the fate of the other treasures.
+{Helm_of_the_Hunt_effects_desc}stuff
+
+Helm_of_the_Hunt
+Helm_of_the_Hunt_desc
+Helm_of_the_Hunt_effects_desc
+#####################################################################################################################
+
+Ancillary Moonstone_of_Hidden_Ways
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Moonstone_of_Hidden_Waysd_desc
+    EffectsDescription Moonstone_of_Hidden_Ways_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Moonstone_of_Hidden_Ways_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Moonstone_of_Hidden_Ways chance  100
+
+;-------------------------------------------------------
+
+
+{Moonstone_of_Hidden_Ways}Moonstone of Hidden Ways
+{Moonstone_of_Hidden_Ways_desc}n ages past, the worldroots linked Athel Loren not only with every forest upon the face of the world, but those further afield also. Much has changed since those days of glory. Many pathways are now forever closed, and those that remain can be unsealed only through the use of the ancient Moonstones of the Hidden Ways that Adanhu gifted to the Elves in the wake of the first great council.
+{Moonstone_of_Hidden_Ways_effects_desc}stuff
+
+Moonstone_of_Hidden_Ways
+Moonstone_of_Hidden_Ways_desc
+Moonstone_of_Hidden_Ways_effects_desc
+#####################################################################################################################
+
+Ancillary Calaingors_Stave
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Calaingors_Staved_desc
+    EffectsDescription Calaingors_Stave_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger Calaingors_Stave_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary Calaingors_Stave chance  100
+
+;-------------------------------------------------------
+
+
+{Calaingors_Stave}Calaingor's Stave
+{Calaingors_Stave_desc}Crafted from an undying bough, Calaingor's Stave still pulses with the vibrant life force of Athel Loren, connecting the bearer to the hearts and minds of the forest’s trees. By reaching out through the Winds of Magic, the bearer of the staff can rouse woodland to life, urging the trees to move, or assail those within their midst.
+{Calaingors_Stave_effects_desc}stuff
+
+Calaingors_Stave
+Calaingors_Stave_desc
+Calaingors_Stave_effects_desc
+#####################################################################################################################
+
+Ancillary The_Banner_of_the_Hunter_King
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description The_Banner_of_the_Hunter_Kingd_desc
+    EffectsDescription The_Banner_of_the_Hunter_King_effects_desc
+
+;-------------------------------------------------------
+
+    Trigger The_Banner_of_the_Hunter_King_trigger
+    WhenToTest CharacterTurnEnd
+    Condition FactionType timurids
+          and IsFactionLeader
+    AcquireAncillary The_Banner_of_the_Hunter_King chance  100
+
+;-------------------------------------------------------
+
+
+{The_Banner_of_the_Hunter_King}The Banner of the Hunter King
+{The_Banner_of_the_Hunter_King_desc}The tattered threads of the ancient standard known as the Banner of the Hunter King resound with Orion’s eagerness for battle. None who fight in its shadow can help but be overcome by the glory of the hunt; they close with the foe as fast as they are able, the better to prove themselves in Kurnous’ eyes.
+{The_Banner_of_the_Hunter_King_effects_desc}stuff
+
+The_Banner_of_the_Hunter_King
+The_Banner_of_the_Hunter_King_desc
+The_Banner_of_the_Hunter_King_effects_desc
 #####################################################################################################################
