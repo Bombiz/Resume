@@ -3644,7 +3644,7 @@ Ancillary Blessed_Blade_of_Ptra
 Ancillary Golden_Death_Mask_of_Kharnut
     Type sword
     Transferable  0
-    Image death_mask_of_kharnut.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Golden_Death_Mask_of_Kharnutd_desc
     EffectsDescription Golden_Death_Mask_of_Kharnut_effects_desc
@@ -3653,7 +3653,7 @@ Ancillary Golden_Death_Mask_of_Kharnut
 Ancillary Cloak_of_the_dunes
     Type sword
     Transferable  0
-    Image cloak_of_the_dunes.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Cloak_of_the_dunesd_desc
     EffectsDescription Cloak_of_the_dunes_effects_desc
@@ -3662,7 +3662,7 @@ Ancillary Cloak_of_the_dunes
 Ancillary Standard_of_the_Undying_Legion
     Type sword
     Transferable  0
-    Image Standard_of_the_Undying_Legion.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Standard_of_the_Undying_Legiond_desc
     EffectsDescription Standard_of_the_Undying_Legion_effects_desc
@@ -3671,7 +3671,7 @@ Ancillary Standard_of_the_Undying_Legion
 Ancillary Destroyer_of_Eternities
     Type sword
     Transferable  0
-    Image destroyer_of_eternities.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Destroyer_of_Eternitiesd_desc
     EffectsDescription Destroyer_of_Eternities_effects_desc
@@ -3680,7 +3680,7 @@ Ancillary Destroyer_of_Eternities
 Ancillary Blade_of_Antarhak
     Type sword
     Transferable  0
-    Image Blade_of_Antarhak.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Blade_of_Antarhakd_desc
     EffectsDescription Blade_of_Antarhak_effects_desc
@@ -3689,7 +3689,7 @@ Ancillary Blade_of_Antarhak
 Ancillary Banner_of_the_Hidden_Dead
     Type sword
     Transferable  0
-    Image banner_of_the_hidden_dead.tga
+    Image animals_horse.tga
     ExcludeCultures southern_european, middle_eastern, eastern_european, northern_european, greek, Nord_culture 
     Description Banner_of_the_Hidden_Deadd_desc
     EffectsDescription Banner_of_the_Hidden_Dead_effects_desc
@@ -3702,7 +3702,7 @@ Ancillary Banner_of_the_Hidden_Dead
 Ancillary The_Blade_of_Realities 
     Type sword
     Transferable  0
-    Image The_Blade_of_Realities.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description The_Blade_of_Realities_desc
     EffectsDescription The_Blade_of_Realities_effects_desc
@@ -3710,7 +3710,7 @@ Ancillary The_Blade_of_Realities
 Ancillary The_Piranha_Blade 
     Type sword
     Transferable  0
-    Image The_Piranha_Blade.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description The_Piranha_Blade_desc
     EffectsDescription The_Piranha_Blade_effects_desc
@@ -3718,7 +3718,7 @@ Ancillary The_Piranha_Blade
 Ancillary Cobra_Mace_of_Mazdamundi
     Type sword
     Transferable  0
-    Image Cobra_Mace_of_Mazdamundi.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Cobra_Mace_of_Mazdamundid_desc
     EffectsDescription Cobra_Mace_of_Mazdamundi_effects_desc
@@ -3726,7 +3726,7 @@ Ancillary Cobra_Mace_of_Mazdamundi
 Ancillary Sunburst_Standard_of_Hexoatl
     Type banner
     Transferable  0
-    Image Sunburst_Standard_of_Hexoatl.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Sunburst_Standard_of_Hexoatld_desc
     EffectsDescription Sunburst_Standard_of_Hexoatl_effects_desc
@@ -3734,7 +3734,7 @@ Ancillary Sunburst_Standard_of_Hexoatl
 Ancillary Sacred_Stegadon_Helm_of_Itza
     Type helmet
     Transferable  0
-    Image Sacred_Stegadon_Helm_of_Itza.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Sacred_Stegadon_Helm_of_Itzad_desc
     EffectsDescription Sacred_Stegadon_Helm_of_Itza_effects_desc
@@ -3742,7 +3742,7 @@ Ancillary Sacred_Stegadon_Helm_of_Itza
 Ancillary The_Cloak_of_Feathers
     Type cloak
     Transferable  0
-    Image The_Cloak_of_Feathers.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description The_Cloak_of_Feathersd_desc
     EffectsDescription The_Cloak_of_Feathers_effects_desc
@@ -3750,7 +3750,7 @@ Ancillary The_Cloak_of_Feathers
 Ancillary The_Horn_of_Kygo
     Type cloak
     Transferable  0
-    Image The_Horn_of_Kygo.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description The_Horn_of_Kygod_desc
     EffectsDescription The_Horn_of_Kygo_effects_desc
@@ -3758,7 +3758,7 @@ Ancillary The_Horn_of_Kygo
 Ancillary Cube_of_Darkness
     Type Item
     Transferable  0
-    Image Cube_of_Darkness.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Cube_of_Darknessd_desc
     EffectsDescription Cube_of_Darkness_effects_desc
@@ -3766,7 +3766,7 @@ Ancillary Cube_of_Darkness
 Ancillary Plaque_of_Dominion
     Type Item
     Transferable  0
-    Image Plaque_of_Dominion.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Plaque_of_Dominiond_desc
     EffectsDescription Plaque_of_Dominion_effects_desc
@@ -3774,7 +3774,7 @@ Ancillary Plaque_of_Dominion
 Ancillary Skavenpelt_Banner
     Type banner
     Transferable  0
-    Image Skavenpelt_Banner.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description Skavenpelt_Bannerd_desc
     EffectsDescription Skavenpelt_Banner_effects_desc
@@ -3782,7 +3782,7 @@ Ancillary Skavenpelt_Banner
 Ancillary The_Jaguar_Standard
     Type banner
     Transferable  0
-    Image The_Jaguar_Standard.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,mesoamerican,southern_european,northern_european,eastern_european,southern_european
     Description The_Jaguar_Standardd_desc
     EffectsDescription The_Jaguar_Standard_effects_desc
@@ -3794,7 +3794,7 @@ Ancillary The_Jaguar_Standard
 Ancillary Warpmusket
     Type Item
     Transferable  0
-    Image Warpmusket.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Warpmusketd_desc
     EffectsDescription Warpmusket_effects_desc 
@@ -3802,7 +3802,7 @@ Ancillary Warpmusket
 Ancillary Warpstone_Armour
     Type armor
     Transferable  0
-    Image warpstone_armour.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Warpstone_Armourd_desc
     EffectsDescription Warpstone_Armour_effects_desc
@@ -3810,7 +3810,7 @@ Ancillary Warpstone_Armour
 Ancillary Warplock_pistols
     Type Item
     Transferable  0
-    Image Warplock_pistols.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Warplock_pistolsd_desc
     EffectsDescription Warplock_pistols_effects_desc
@@ -3818,7 +3818,7 @@ Ancillary Warplock_pistols
 Ancillary Fellblade
     Type Sword
     Transferable  0
-    Image fellblade.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Fellbladed_desc
     EffectsDescription Fellblade_effects_desc
@@ -3826,7 +3826,7 @@ Ancillary Fellblade
 Ancillary Warpforged_blade
     Type sword
     Transferable  0
-    Image Warpforged_blade.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Warpforged_bladed_desc
     EffectsDescription Warpforged_blade_effects_desc
@@ -3834,7 +3834,7 @@ Ancillary Warpforged_blade
 Ancillary The_Blade_of_Corruption
     Type sword
     Transferable  0
-    Image The_Blade_of_Corruption.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description The_Blade_of_Corruptiond_desc
     EffectsDescription The_Blade_of_Corruption_effects_desc
@@ -3842,7 +3842,7 @@ Ancillary The_Blade_of_Corruption
 Ancillary Weeping_Blade
     Type sword
     Transferable  0
-    Image weeping_blade.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Weeping_Bladed_desc
     EffectsDescription Weeping_Blade_effects_desc
@@ -3850,7 +3850,7 @@ Ancillary Weeping_Blade
 Ancillary Dwarfbane
     Type Item
     Transferable  0
-    Image Dwarfbane.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Dwarfbaned_desc
     EffectsDescription Dwarfbane_effects_desc
@@ -3858,7 +3858,7 @@ Ancillary Dwarfbane
 Ancillary Blade_of_Nurglitch
     Type sword
     Transferable  0
-    Image Blade_of_Nurglitch.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Blade_of_Nurglitchd_desc
     EffectsDescription Blade_of_Nurglitch_effects_desc
@@ -3866,7 +3866,7 @@ Ancillary Blade_of_Nurglitch
 Ancillary Foul_Pendant
     Type Item
     Transferable  0
-    Image the_foul_pendant.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Foul_Pendantd_desc
     EffectsDescription Foul_Pendant_effects_desc
@@ -3874,7 +3874,7 @@ Ancillary Foul_Pendant
 Ancillary Worlds_Edge_Armour
     Type armor
     Transferable  0
-    Image Worlds_Edge_Armour.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Worlds_Edge_Armourd_desc
     EffectsDescription Worlds_Edge_Armour_effects_desc
@@ -3882,7 +3882,7 @@ Ancillary Worlds_Edge_Armour
 Ancillary Brass_Orb
     Type Item
     Transferable  0
-    Image brass_orb.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Brass_Orbd_desc
     EffectsDescription Brass_Orb_effects_desc
@@ -3890,7 +3890,7 @@ Ancillary Brass_Orb
 Ancillary Death_Globe
     Type Item
     Transferable  0
-    Image Death_Globe.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Death_Globed_desc
     EffectsDescription Death_Globe_effects_desc
@@ -3898,7 +3898,7 @@ Ancillary Death_Globe
 Ancillary Plague_Banner
     Type banner
     Transferable  0
-    Image Plague_Banner.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Plague_Bannerd_desc
     EffectsDescription Plague_Banner_effects_desc
@@ -3906,7 +3906,7 @@ Ancillary Plague_Banner
 Ancillary Shadow_Magnet_Trinket
     Type Item
     Transferable  0
-    Image Shadow_Magnet_Trinket.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Shadow_Magnet_Trinketd_desc
     EffectsDescription Shadow_Magnet_Trinket_effects_desc
@@ -3914,7 +3914,7 @@ Ancillary Shadow_Magnet_Trinket
 Ancillary Shield_of_Distraction
     Type sheild
     Transferable  0
-    Image Shield_of_Distraction.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Shield_of_Distractiond_desc
     EffectsDescription Shield_of_Distraction_effects_desc
@@ -3922,7 +3922,7 @@ Ancillary Shield_of_Distraction
 Ancillary Sacred_Banner_of_the_Horned
     Type banner
     Transferable  0
-    Image sacred_standard_of_the_horned_rat.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Sacred_Banner_of_the_Hornedd_desc
     EffectsDescription Sacred_Banner_of_the_Horned_effects_desc
@@ -3930,7 +3930,7 @@ Ancillary Sacred_Banner_of_the_Horned
 Ancillary Skalm
     Type banner
     Transferable  0
-    Image skalm.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,Nord_culture
     Description Skalmd_desc
     EffectsDescription Skalm_effects_desc
@@ -3942,7 +3942,7 @@ Ancillary Skalm
 Ancillary Thundermace
     Type swords
     Transferable  0
-    Image Thundermace.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Thundermace_desc
     EffectsDescription Thundermace_effects_desc
@@ -3950,7 +3950,7 @@ Ancillary Thundermace
 Ancillary Rune_Maw
     Type banner
     Transferable  0
-    Image Rune_Maw.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Rune_Maw_desc
     EffectsDescription Rune_Maw_effects_desc
@@ -3958,7 +3958,7 @@ Ancillary Rune_Maw
 Ancillary Rock_Eye
     Type Item
     Transferable  0
-    Image Rock_Eye.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Rock_Eye_desc
     EffectsDescription Rock_Eye_effects_desc
@@ -3966,7 +3966,7 @@ Ancillary Rock_Eye
 Ancillary Hellheart
     Type Item
     Transferable  0
-    Image Hellheart.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Hellheart_desc
     EffectsDescription Hellheart_effects_desc
@@ -3974,7 +3974,7 @@ Ancillary Hellheart
 Ancillary Gut_Maw
     Type armor
     Transferable  0
-    Image Gut_Maw.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Gut_Maw_desc
     EffectsDescription Gut_Maw_effects_desc
@@ -3982,7 +3982,7 @@ Ancillary Gut_Maw
 Ancillary Greedy_Fist
     Type swords
     Transferable  0
-    Image Greedy_Fist.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Greedy_Fist_desc
     EffectsDescription Greedy_Fist_effects_desc
@@ -3990,7 +3990,7 @@ Ancillary Greedy_Fist
 Ancillary Dragonhide_Banner
     Type banner
     Transferable  0
-    Image Dragonhide_Banner.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Dragonhide_Banner_desc
     EffectsDescription Dragonhide_Banner_effects_desc
@@ -4002,7 +4002,7 @@ Ancillary Dragonhide_Banner
 Ancillary Aromour_of_Alexandr
     Type armor
     Transferable  0
-    Image Aromour_of_Alexandr.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Aromour_of_Alexandr_desc
     EffectsDescription Aromour_of_Alexandr_effects_desc
@@ -4010,7 +4010,7 @@ Ancillary Aromour_of_Alexandr
 Ancillary The_Holy_Axe_of_Miska
     Type banner
     Transferable  0
-    Image The_Holy_Axe_of_Miska.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description The_Holy_Axe_of_Miska_desc
     EffectsDescription The_Holy_Axe_of_Miska_effects_desc
@@ -4018,7 +4018,7 @@ Ancillary The_Holy_Axe_of_Miska
 Ancillary Apple_of_the_Kislev
     Type Item
     Transferable  0
-    Image Apple_of_the_Kislev.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Apple_of_the_Kislev_desc
     EffectsDescription Apple_of_the_Kislev_effects_desc
@@ -4026,7 +4026,7 @@ Ancillary Apple_of_the_Kislev
 Ancillary Boots_of_the_Seven_Leagues
     Type Item
     Transferable  0
-    Image Boots_of_the_Seven_Leagues.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Boots_of_the_Seven_Leagues_desc
     EffectsDescription Boots_of_the_Seven_Leagues_effects_desc
@@ -4034,7 +4034,7 @@ Ancillary Boots_of_the_Seven_Leagues
 Ancillary Ice_Armour_of_Jekaterina
     Type armor
     Transferable  0
-    Image Ice_Armour_of_Jekaterina.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description Ice_Armour_of_Jekaterina_desc
     EffectsDescription Ice_Armour_of_Jekaterina_effects_desc
@@ -4042,7 +4042,7 @@ Ancillary Ice_Armour_of_Jekaterina
 Ancillary The_Flying_Mortar
     Type armor
     Transferable  0
-    Image The_Flying_Mortar.tga
+    Image animals_horse.tga
     ExcludeCultures greek,middle_eastern,southern_european,northern_european,eastern_european,southern_european,mesoamerican
     Description The_Flying_Mortar_desc
     EffectsDescription The_Flying_Mortar_effects_desc
@@ -4054,7 +4054,7 @@ Ancillary The_Flying_Mortar
 Ancillary Gromril_Great_Helm 
     Type helmet
     Transferable  0
-    Image gromril_great_helm.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Gromril_Great_Helmd_desc
     EffectsDescription Gromril_Great_Helm_effects_desc
@@ -4062,7 +4062,7 @@ Ancillary Gromril_Great_Helm
 Ancillary Cuirass_of_Fortune
     Type armor
     Transferable  0
-    Image Cuirass_of_Fortune.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Cuirass_of_Fortuned_desc
     EffectsDescription Cuirass_of_Fortune_effects_desc
@@ -4070,7 +4070,7 @@ Ancillary Cuirass_of_Fortune
 Ancillary Mantle_of_Damsel_Elena
     Type cloak
     Transferable  0
-    Image Mantle_of_Damsel_Elena.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Mantle_of_Damsel_Elenad_desc
     EffectsDescription Mantle_of_Damsel_Elena_effects_desc
@@ -4078,7 +4078,7 @@ Ancillary Mantle_of_Damsel_Elena
 Ancillary Falcon_horn_of_Fredemund
     Type Item
     Transferable  0
-    Image falcon_horn_of_fredemund.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Falcon_horn_of_Fredemundd_desc
     EffectsDescription Falcon_horn_of_Fredemund_effects_desc
@@ -4086,7 +4086,7 @@ Ancillary Falcon_horn_of_Fredemund
 Ancillary Ruby_Goblet
     Type ale
     Transferable  0
-    Image the_ruby_goblet.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Ruby_Gobletd_desc
     EffectsDescription Ruby_Goblet_effects_desc
@@ -4094,7 +4094,7 @@ Ancillary Ruby_Goblet
 Ancillary Mane_of_the_Purebreed
     Type steed
     Transferable  0
-    Image Mane_of_the_Purebreed.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Mane_of_the_Purebreedd_desc
     EffectsDescription Mane_of_the_Purebreed_effects_desc
@@ -4102,7 +4102,7 @@ Ancillary Mane_of_the_Purebreed
 Ancillary Tress_of_Isoulde
     Type sword
     Transferable  0
-    Image Tress_of_Isoulde.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Tress_of_Isoulded_desc
     EffectsDescription Tress_of_Isoulde_effects_desc
@@ -4118,7 +4118,7 @@ Ancillary Sword_of_the_Ladys_Champion
 Ancillary Sword_of_Heroes
     Type sword
     Transferable  0
-    Image sword_of_heroes.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Sword_of_Heroesd_desc
     EffectsDescription Sword_of_Heroes_effects_desc
@@ -4126,7 +4126,7 @@ Ancillary Sword_of_Heroes
 Ancillary Heartwood_Lance
     Type spear
     Transferable  0
-    Image Heartwood_Lance.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Heartwood_Lanced_desc
     EffectsDescription Heartwood_Lance_effects_desc
@@ -4134,7 +4134,7 @@ Ancillary Heartwood_Lance
 Ancillary Birth_sword_of_Carcassonne
     Type sword
     Transferable  0
-    Image Birth_sword_of_Carcassonne.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Birth_sword_of_Carcassonned_desc
     EffectsDescription Birth_sword_of_Carcassonne_effects_desc
@@ -4142,7 +4142,7 @@ Ancillary Birth_sword_of_Carcassonne
 Ancillary Morning_Star_of_Fracasse
     Type sword
     Transferable  0
-    Image Morning_Star_of_Fracasse.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Morning_Star_of_Fracassed_desc
     EffectsDescription Morning_Star_of_Fracasse_effects_desc
@@ -4150,7 +4150,7 @@ Ancillary Morning_Star_of_Fracasse
 Ancillary Lance_of_Artois
     Type spear
     Transferable  0
-    Image Lance_of_Artois.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Lance_of_Artoisd_desc
     EffectsDescription Lance_of_Artois_effects_desc
@@ -4158,7 +4158,7 @@ Ancillary Lance_of_Artois
 Ancillary Wyrmlance
     Type sword
     Transferable  0
-    Image Wyrmlance.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Wyrmlanced_desc
     EffectsDescription Wyrmlance_effects_desc
@@ -4166,10 +4166,18 @@ Ancillary Wyrmlance
 Ancillary Silver_Lance_of_the_Blessed
     Type spear
     Transferable  0
-    Image the_silver_lance_of_the_blessed.tga
+    Image animals_horse.tga
     ExcludeCultures mesoamerican
     Description Silver_Lance_of_the_Blessedd_desc
     EffectsDescription Silver_Lance_of_the_Blessed_effects_desc
+
+Ancillary Blessed_Blade_of_Ptra
+    Type sword
+    Transferable  0
+    Image animals_horse.tga
+    ExcludeCultures mesoamerican
+    Description Blessed_Blade_of_Ptrad_desc
+    EffectsDescription Blessed_Blade_of_Ptra_effects_desc
     
 ;===============================================================
 ;== ANCILLARY DATA STARTS HERE ==
