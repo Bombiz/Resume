@@ -83,6 +83,22 @@
 	Effect Command 8
     Effect Authority 5
 	Effect MovementPoints 4
+
+
+
+;------------------------------------------
+
+;	Trait Griffon_Security
+;	Characters all
+
+;    Level Griffon_Security
+;	Description Griffon_Security
+;    EffectsDescription Griffon_Security
+;    GainMessage Griffon_Security_Gain
+;	Threshold 1
+
+;    Effect PublicSecurity -10
+
 ;------------------------------------------
 
 	Trait Krell
@@ -2525,8 +2541,9 @@ Trait knyaz_5
         Effect Farming  1
         Effect CavalryCommand  1
 
+;------------------------------------------
 
-        Trait orc
+    Trait orc
     Characters family, priest
     ExcludeCultures Nord_culture, greek, southern_european
 
@@ -2540,9 +2557,11 @@ Trait knyaz_5
 
         Effect Loyalty  1
         Effect HitPoints  3
-	Effect Looting 50
+	    Effect Looting 50
 
-        Trait goblin
+;------------------------------------------
+
+    Trait goblin
     Characters family, priest, spy
     ExcludeCultures Nord_culture, greek, southern_european
 
@@ -2555,12 +2574,17 @@ Trait knyaz_5
         Threshold  1
 
         Effect Loyalty  1
-        Effect NightBattle 10
-        Effect Command  -10
-	Effect Ambush 1
-	Effect Looting 50
+        Effect NightBattle 5
+        Effect Command  -2
+        Effect Fearsmongols 2
+        Effect Fearsnormans 2
+        Effect Fearsengland 2
+	    Effect Ambush 1
+	    Effect Looting 50
 
-                Trait gnom
+;------------------------------------------
+
+    Trait gnom
     Characters family, merchant, priest
     ExcludeCultures middle_eastern, southern_european
 
@@ -2582,10 +2606,9 @@ Trait knyaz_5
 		Effect SiegeAttack  1
         Effect SiegeDefence  1
 
+;------------------------------------------
 
-
-
-                Trait zver
+    Trait zver
     Characters family
     ExcludeCultures middle_eastern, greek, southern_european
 
@@ -2599,10 +2622,10 @@ Trait knyaz_5
 
         Effect Loyalty  1
 
+;------------------------------------------
 
 
-
-              Trait vampir
+    Trait vampir
     Characters family, princess, spy, assassin, diplomat, priest
     ExcludeCultures middle_eastern, greek
 
@@ -2615,14 +2638,13 @@ Trait knyaz_5
         Threshold  1
 
         Effect Loyalty  1
-        Effect NightBattle 10
+        Effect NightBattle +7
         Effect HitPoints  4
-        Effect Command  -10
+        Effect Command  -2
 
+;------------------------------------------
 
-
-
-              Trait feytor
+    Trait feytor
     Characters family
     ExcludeCultures middle_eastern, greek, southern_european
 
@@ -2635,8 +2657,9 @@ Trait knyaz_5
         Threshold  1
 
         Effect HitPoints  10
-	Effect Level 7
+	    Effect Level 7
 
+;------------------------------------------
 
               Trait meleh
     Characters family
@@ -2697,6 +2720,80 @@ Trait knyaz_5
 
         Effect HitPoints  12
 	Effect Level 8
+
+;------------------------------------------
+
+Trait TombKing
+    Characters family, merchant, spy, assassin, priest
+    ExcludeCultures middle_eastern, greek, northern_european, southern_european, Nord_culture
+
+    Level TombKing
+        Description krom_desc
+        EffectsDescription krom_effects_desc
+        GainMessage krom_gain_desc
+        LoseMessage krom_lose_desc
+        Threshold  1
+
+        Effects Command 4
+		Effects Chivalry -5 
+		Effects Athority 2
+		Effects Loyalty 2
+		Effect InfantryCommand 2
+		Effect CavalryCommand 2
+
+;------------------------------------------
+
+Trait Ogre
+    Characters family, merchant, spy, assassin, priest
+    ExcludeCultures middle_eastern, greek, northern_european, southern_european, Nord_culture
+
+    Level Ogre
+        Description krom_desc
+        EffectsDescription krom_effects_desc
+        GainMessage krom_gain_desc
+        LoseMessage krom_lose_desc
+        Threshold  1
+
+        Effect Chivalry -5
+        Effect HitPoints  5
+;------------------------------------------
+
+Trait Skaven
+    Characters family, merchant, spy, assassin, priest
+    ExcludeCultures middle_eastern, greek, northern_european, southern_european, Nord_culture
+
+    Level Skaven
+        Description krom_desc
+        EffectsDescription krom_effects_desc
+        GainMessage krom_gain_desc
+        LoseMessage krom_lose_desc
+        Threshold  1
+
+		Effects Loyalty -2
+		Effects Reserves 1
+		Effect InfantryCommand 1
+		Effects Chivalry -10
+		Effect Ambush 2
+
+;------------------------------------------
+
+Trait Lizardmen
+    Characters family, merchant, spy, assassin, priest
+    ExcludeCultures middle_eastern, greek, northern_european, southern_european, Nord_culture
+
+    Level Lizardmen
+        Description krom_desc
+        EffectsDescription krom_effects_desc
+        GainMessage krom_gain_desc
+        LoseMessage krom_lose_desc
+        Threshold  1
+
+		Effects Loyalty 8
+		Effects Chivalry 5
+		Effects Athority 2
+		Effect InfantryCommand 5
+;------------------------------------------
+
 
 
 ;===============================================================
@@ -3792,7 +3889,7 @@ Trait Drong
 
 Trait Ruglud
 	Characters family
-    Hidden
+    	Hidden
 
    Level Ruglud
 	Description Ruglud_desc
@@ -8755,6 +8852,301 @@ Trait Hatestimurids
 
         Effect TroopMorale -1
         Effect Combat_V_Faction_Timurids  3
+
+;------------------------------------------
+Trait Fearsegypt
+    Characters family
+    AntiTraits Hatesegypt
+
+    Level Wary_of_egypt
+        Description Wary_of_egypt_desc
+        EffectsDescription Wary_of_egypt_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_egypt -1
+
+    Level Fears_the_egypt
+        Description Fears_the_egypt_desc
+        EffectsDescription Fears_the_egypt_effects_desc
+        Threshold  2
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_egypt -2
+
+    Level Terrified_of_the_egypt
+        Description Terrified_of_the_egypt_desc
+        EffectsDescription Terrified_of_the_egypt_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -2
+        Effect Combat_V_Faction_egypt -3
+
+
+
+;------------------------------------------
+Trait Hatesegypt
+    Characters family
+    NoGoingBackLevel  3
+    AntiTraits Fearsegypt
+
+    Level Dislikes_the_egypt
+        Description Dislikes_the_egypt_desc
+        EffectsDescription Dislikes_the_egypt_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_egypt  1
+
+    Level Hates_the_egypt
+        Description Hates_the_egypt_desc
+        EffectsDescription Hates_the_egypt_effects_desc
+        Threshold  2
+
+        Effect Combat_V_Faction_egypt  2
+
+    Level Loathes_the_Invading_egypt
+        Description Loathes_the_Invading_egypt_desc
+        EffectsDescription Loathes_the_Invading_egypt_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_egypt  3
+
+
+
+;------------------------------------------
+Trait Fearspapal_states
+    Characters family
+    AntiTraits Hatespapal_states
+
+    Level Wary_of_papal_states
+        Description Wary_of_papal_states_desc
+        EffectsDescription Wary_of_papal_states_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_papal_states -1
+
+    Level Fears_the_papal_states
+        Description Fears_the_papal_states_desc
+        EffectsDescription Fears_the_papal_states_effects_desc
+        Threshold  2
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_papal_states -2
+
+    Level Terrified_of_the_papal_states
+        Description Terrified_of_the_papal_states_desc
+        EffectsDescription Terrified_of_the_papal_states_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -2
+        Effect Combat_V_Faction_papal_states -3
+
+
+
+;------------------------------------------
+Trait Hatespapal_states
+    Characters family
+    NoGoingBackLevel  3
+    AntiTraits Fearspapal_states
+
+    Level Dislikes_the_papal_states
+        Description Dislikes_the_papal_states_desc
+        EffectsDescription Dislikes_the_papal_states_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_papal_states  1
+
+    Level Hates_the_papal_states
+        Description Hates_the_papal_states_desc
+        EffectsDescription Hates_the_papal_states_effects_desc
+        Threshold  2
+
+        Effect Combat_V_Faction_papal_states  2
+
+    Level Loathes_the_Invading_papal_states
+        Description Loathes_the_Invading_papal_states_desc
+        EffectsDescription Loathes_the_Invading_papal_states_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_papal_states  3
+
+
+;------------------------------------------
+Trait Fearsnormans
+    Characters family
+    AntiTraits Hatesnormans
+
+    Level Wary_of_normans
+        Description Wary_of_normans_desc
+        EffectsDescription Wary_of_normans_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_normans -1
+
+    Level Fears_the_normans
+        Description Fears_the_normans_desc
+        EffectsDescription Fears_the_normans_effects_desc
+        Threshold  2
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_normans -2
+
+    Level Terrified_of_the_normans
+        Description Terrified_of_the_normans_desc
+        EffectsDescription Terrified_of_the_normans_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -2
+        Effect Combat_V_Faction_normans -3
+
+
+
+;------------------------------------------
+Trait Hatesnormans
+    Characters family
+    NoGoingBackLevel  3
+    AntiTraits Fearsnormans
+
+    Level Dislikes_the_normans
+        Description Dislikes_the_normans_desc
+        EffectsDescription Dislikes_the_normans_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_normans  1
+
+    Level Hates_the_normans
+        Description Hates_the_normans_desc
+        EffectsDescription Hates_the_normans_effects_desc
+        Threshold  2
+
+        Effect Combat_V_Faction_normans  2
+
+    Level Loathes_the_Invading_normans
+        Description Loathes_the_Invading_normans_desc
+        EffectsDescription Loathes_the_Invading_normans_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_normans  3
+
+
+
+;------------------------------------------
+Trait Fearsskaven
+    Characters family
+    AntiTraits Hatesskaven
+
+    Level Wary_of_skaven
+        Description Wary_of_skaven_desc
+        EffectsDescription Wary_of_skaven_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_skaven -1
+
+    Level Fears_the_skaven
+        Description Fears_the_skaven_desc
+        EffectsDescription Fears_the_skaven_effects_desc
+        Threshold  2
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_skaven -2
+
+    Level Terrified_of_the_skaven
+        Description Terrified_of_the_skaven_desc
+        EffectsDescription Terrified_of_the_skaven_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -2
+        Effect Combat_V_Faction_skaven -3
+
+
+
+;------------------------------------------
+Trait Hatesskaven
+    Characters family
+    NoGoingBackLevel  3
+    AntiTraits Fearsskaven
+
+    Level Dislikes_the_skaven
+        Description Dislikes_the_skaven_desc
+        EffectsDescription Dislikes_the_skaven_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_skaven  1
+
+    Level Hates_the_skaven
+        Description Hates_the_skaven_desc
+        EffectsDescription Hates_the_skaven_effects_desc
+        Threshold  2
+
+        Effect Combat_V_Faction_skaven  2
+
+    Level Loathes_the_Invading_skaven
+        Description Loathes_the_Invading_skaven_desc
+        EffectsDescription Loathes_the_Invading_skaven_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_skaven  3
+
+;------------------------------------------
+Trait Fearsogres
+    Characters family
+    AntiTraits Hatesogres
+
+    Level Wary_of_ogres
+        Description Wary_of_ogres_desc
+        EffectsDescription Wary_of_ogres_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_ogres -1
+
+    Level Fears_the_ogres
+        Description Fears_the_ogres_desc
+        EffectsDescription Fears_the_ogres_effects_desc
+        Threshold  2
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_ogres -2
+
+    Level Terrified_of_the_ogres
+        Description Terrified_of_the_ogres_desc
+        EffectsDescription Terrified_of_the_ogres_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -2
+        Effect Combat_V_Faction_ogres -3
+
+
+
+;------------------------------------------
+Trait Hatesogres
+    Characters family
+    NoGoingBackLevel  3
+    AntiTraits Fearsogres
+
+    Level Dislikes_the_ogres
+        Description Dislikes_the_ogres_desc
+        EffectsDescription Dislikes_the_ogres_effects_desc
+        Threshold  1
+
+        Effect Combat_V_Faction_ogres  1
+
+    Level Hates_the_ogres
+        Description Hates_the_ogres_desc
+        EffectsDescription Hates_the_ogres_effects_desc
+        Threshold  2
+
+        Effect Combat_V_Faction_ogres  2
+
+    Level Loathes_the_Invading_ogres
+        Description Loathes_the_Invading_ogres_desc
+        EffectsDescription Loathes_the_Invading_ogres_effects_desc
+        Threshold  4
+
+        Effect TroopMorale -1
+        Effect Combat_V_Faction_ogres  3
 
 
 
@@ -14422,7 +14814,7 @@ Trait EnglishCrusader
 
 
 
-        ;===============================================================
+;===============================================================
 ;== TRIGGER DATA STARTS HERE ==
 ;===============================================================
 
@@ -14811,6 +15203,12 @@ Trigger Battle_Earning_Berserker
           and GeneralNumKillsInBattle > 10
           and Trait Berserker < 1
           and Trait BattleChivalry < 1
+          and not FactionReligion hertic
+      	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
 
     Affects Berserker  1  Chance  100
 
@@ -14851,6 +15249,12 @@ Trigger battle3_Dread_fighting
 
     Condition GeneralNumKillsInBattle > 8
           and not Trait BattleChivalry > 0
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave         
 
     Affects BattleDread  1  Chance  50
     Affects Bloodthirsty  1  Chance  10
@@ -14899,6 +15303,12 @@ Trigger battle3Dread_PickingOnWeak
           and BattleOdds > 1.5
           and PercentageEnemyKilled > 50
           and not Trait BattleChivalry > 0
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
 
     Affects BattleDread  1  Chance  100
 
@@ -14913,6 +15323,13 @@ Trigger battle3Dread_TotalAnnihilation
           and IsGeneral
           and BattleOdds < 0.95
           and not Trait BattleChivalry > 0
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
+
 
     Affects BattleDread  2  Chance  100
 
@@ -14928,6 +15345,12 @@ Trigger battle3Dread_Let_Them_Go
           and IsGeneral
           and BattleOdds < 0.95
           and not Trait BattleChivalry > 0
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
 
     Affects BattleDread 1  Chance  100
 
@@ -15724,6 +16147,46 @@ Trigger dad_FearsTimurids
     Affects Hatestimurids  1  Chance  25
 
 ;------------------------------------------
+Trigger dad_Fearsogres
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Fearsogres >= 1
+
+    Affects Hatesogres  1  Chance  25
+
+;------------------------------------------
+Trigger dad_Fearsskaven
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Fearsskaven >= 1
+
+    Affects Hatesskaven  1  Chance  25
+
+;------------------------------------------
+Trigger dad_Fearspapal_states
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Fearspapal_states >= 1
+
+    Affects Hatespapal_states  1  Chance  25
+
+;------------------------------------------
+Trigger dad_Fearsnormans
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Fearsnormans >= 1
+
+    Affects Hatesnormans  1  Chance  25
+
+;------------------------------------------
+Trigger dad_Fearsegypt
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Fearsegypt >= 1
+
+    Affects Hatesegypt  1  Chance  25
+
+;------------------------------------------
 Trigger dad_FearsTurks
     WhenToTest CharacterComesOfAge
 
@@ -15890,6 +16353,46 @@ Trigger dad_hatesTimurids
     Condition FatherTrait Hatestimurids >= 1
 
     Affects Hatestimurids  1  Chance  25
+
+;------------------------------------------
+Trigger dad_hatesogres
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Hatesogres >= 1
+
+    Affects Hatesogres  1  Chance  25
+
+;------------------------------------------
+Trigger dad_hatesskaven
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Hatesskaven >= 1
+
+    Affects Hatesskaven  1  Chance  25
+
+;------------------------------------------
+Trigger dad_hatespapal_states
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Hatespapal_states >= 1
+
+    Affects Hatespapal_states  1  Chance  25
+
+;------------------------------------------
+Trigger dad_hatesnormans
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Hatesnormans >= 1
+
+    Affects Hatesnormans  1  Chance  25
+
+;------------------------------------------
+Trigger dad_hatesegypt
+    WhenToTest CharacterComesOfAge
+
+    Condition FatherTrait Hatesegypt >= 1
+
+    Affects Hatesegypt  1  Chance  25
 
 ;------------------------------------------
 Trigger dad_hatesTurks
@@ -16208,7 +16711,14 @@ Trigger dads_NaturalMilitaryTalent
 Trigger dads_authoritarian
     WhenToTest CharacterComesOfAge
 
-    Condition FatherTrait Authoritarian >= 1
+    Condition FatherTrait Authoritarian >= 1  
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects NonAuthoritarian  1  Chance  50
     Affects KindRuler  1  Chance  20
@@ -16218,6 +16728,13 @@ Trigger dads_kindruler
     WhenToTest CharacterComesOfAge
 
     Condition FatherTrait KindRuler >= 1
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects KindRuler  1  Chance  50
     Affects HarshRuler  1  Chance  50
@@ -16605,7 +17122,12 @@ Trigger random_birth29
 Trigger random_birth30
     WhenToTest CharacterComesOfAge
 
-    Condition IsGeneral
+    Condition IsGeneral and not FactionReligion hertic
+     	and not FactionReligion dwarven
+     	and not FactionReligion orthodox
+     	and not FactionReligion chaos
+     	and not FactionType england
+     	and not FactionType slave
 
     Affects Bloodthirsty  1  Chance  4
     Affects GoodFarmer  3  Chance  3
@@ -17376,6 +17898,80 @@ Trigger hate_n_fear_19
     Affects Hatesvenice  1  Chance  40
 
 ;------------------------------------------
+Trigger hate_n_fear_17
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtFaction ogres
+
+    Affects Hatesogres  1  Chance  40
+
+;------------------------------------------
+Trigger hate_n_fear_18
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtFaction skaven
+
+    Affects Hatesskaven 1  Chance  40
+
+;------------------------------------------
+Trigger hate_n_fear_19
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtFaction egypt
+
+    Affects Hatesegypt 1  Chance  40
+
+;------------------------------------------
+Trigger hate_n_fear_20
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtFaction papal_states
+
+    Affects Hatespapal_states 1  Chance  40
+
+
+;------------------------------------------
+Trigger hate_n_fear_21
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.5
+          and BattleOdds < 1.5
+          and GeneralFoughtFaction normans
+
+    Affects Hatesnormans 1  Chance  40
+
+
+
+;------------------------------------------
+
 Trigger hate_n_fear_25
     WhenToTest PostBattle
 
@@ -17597,6 +18193,72 @@ Trigger hate_n_fear_45
     Affects Fearsvenice  1  Chance  100
 
 ;------------------------------------------
+Trigger hate_n_fear_46
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.9
+          and GeneralFoughtFaction ogres
+
+    Affects Fearsogres  1  Chance  100
+
+;------------------------------------------
+Trigger hate_n_fear_47
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.9
+          and GeneralFoughtFaction skaven
+
+    Affects Fearsskaven  1  Chance  100
+
+;------------------------------------------
+Trigger hate_n_fear_48
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.9
+          and GeneralFoughtFaction egypt
+
+    Affects Fearsegypt  1  Chance  100
+
+;------------------------------------------
+Trigger hate_n_fear_49
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.9
+          and GeneralFoughtFaction papal_states
+
+    Affects Fearspapal_states  1  Chance  100
+
+;------------------------------------------
+Trigger hate_n_fear_50
+    WhenToTest PostBattle
+
+    Condition IsGeneral
+          and not WonBattle
+          and BattleSuccess >= clear
+          and I_ConflictType Normal
+          and BattleOdds >= 0.9
+          and GeneralFoughtFaction normans
+
+    Affects Fearsnormans  1  Chance  100
+
+;------------------------------------------
+
 Trigger withdraws
     WhenToTest PreBattleWithdrawal
 
@@ -19159,7 +19821,7 @@ Trigger governing20
 
     Condition AgentType = merchant
 
-    Affects GoodTrader  2  Chance  80
+    Affects GoodTrader  2  Chance  100
 
 ;------------------------------------------
 Trigger governing21
@@ -19204,7 +19866,7 @@ Trigger not_building_trade
     WhenToTest GovernorBuildingCompleted
 
     Condition SettlementBuildingExists >= wooden_wall
-          and not SettlementBuildingExists >= market_3
+    	and not SettlementBuildingExists >= market_3
 
     Affects BadTrader  1  Chance  10
 
@@ -19281,7 +19943,13 @@ Trigger building_music
 Trigger building_brothel
     WhenToTest GovernorBuildingCompleted
 
-    Condition SettlementBuildingFinished >= brothel
+    Condition SettlementBuildingFinished >= brothel     	  
+          and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects Corrupt  1  Chance  4
     Affects NonAuthoritarian  1  Chance  5
@@ -19325,7 +19993,14 @@ Trigger building_caravans
 Trigger building_tourney
     WhenToTest GovernorBuildingCompleted
 
-    Condition SettlementBuildingFinished >= jousting_lists
+    Condition SettlementBuildingFinished >= jousting_lists          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects StrategyChivalry  1  Chance  100
     Affects NonAuthoritarian  1  Chance  5
@@ -19336,7 +20011,14 @@ Trigger building_townhall
 
     Condition Trait StrategyDread < 1
           and Trait StrategyChivalry < 1
-          and SettlementBuildingFinished >= city_hall_2
+          and SettlementBuildingFinished >= city_hall_2          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects Just  1  Chance  50
     Affects GoodBuilder  1  Chance  25
@@ -19347,7 +20029,14 @@ Trigger building_townhall_chivalrous
     WhenToTest GovernorBuildingCompleted
 
     Condition Trait StrategyChivalry >= 1
-          and SettlementBuildingFinished >= city_hall_3
+          and SettlementBuildingFinished >= city_hall_3          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects Just  1  Chance  100
     Affects GoodBuilder  1  Chance  25
@@ -19392,6 +20081,13 @@ Trigger extermination2
     WhenToTest ExterminatePopulation
 
 
+     Condition not FactionReligion hertic
+     	and not FactionReligion dwarven
+     	and not FactionReligion orthodox
+     	and not FactionReligion chaos
+     	and not FactionType england
+     	and not FactionType slave
+
     Affects Genocide  1  Chance  100
     Affects Bloodthirsty  1  Chance  10
     Affects StrategyDread  1  Chance  100
@@ -19402,7 +20098,15 @@ Trigger extermination2
 Trigger extermination4
     WhenToTest OccupySettlement
 
-    Condition Trait StrategyChivalry > 0
+    Condition Trait StrategyChivalry > 0          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
+
 
     Affects LenientJustice  1  Chance  20
     Affects NonAuthoritarian  1  Chance  3
@@ -20600,6 +21304,13 @@ Trigger agents24
 
     Condition Trait StrategyDread < 1
           and not CharacterReligion pagan
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects StrategyChivalry  1  Chance  100
 
@@ -20612,6 +21323,13 @@ Trigger governing6
           and GovernorTaxLevel = tax_low
           and GovernorLoyaltyLevel = loyalty_happy
           and TimeInRegion > 3
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects StrategyChivalry  1  Chance  25
 
@@ -20624,7 +21342,14 @@ Trigger governing7
           and GovernorTaxLevel = tax_low
           and GovernorLoyaltyLevel > loyalty_disillusioned
           and Treasury < 0
-          and TimeInRegion > 3
+          and TimeInRegion > 3          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects StrategyChivalry  1  Chance  33
     Affects KindRuler  1  Chance  8
@@ -20638,7 +21363,14 @@ Trigger governing6_pagan
           and GovernorTaxLevel = tax_low
           and GovernorLoyaltyLevel = loyalty_happy
           and TimeInRegion > 3
-          and Trait StrategyDread < 1
+          and Trait StrategyDread < 1          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects KindRuler  1  Chance  20
 
@@ -20652,7 +21384,14 @@ Trigger governing7_pagan
           and GovernorLoyaltyLevel > loyalty_disillusioned
           and Treasury < 0
           and TimeInRegion > 3
-          and Trait StrategyDread < 1
+          and Trait StrategyDread < 1          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects KindRuler  1  Chance  15
     Affects KindRuler  1  Chance  8
@@ -20661,7 +21400,14 @@ Trigger governing7_pagan
 Trigger extermination3
     WhenToTest OccupySettlement
 
-    Condition not CharacterReligion pagan
+    Condition not CharacterReligion pagan          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects StrategyChivalry  1  Chance  100
     Affects NonAuthoritarian  1  Chance  3
@@ -20670,7 +21416,13 @@ Trigger extermination3
 Trigger extermination3_pagan
     WhenToTest OccupySettlement
 
-    Condition CharacterReligion pagan
+    Condition CharacterReligion pagan     	  
+          and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects NonAuthoritarian  1  Chance  15
 
@@ -20681,6 +21433,13 @@ Trigger battle3_Chivalry_fighting
     Condition GeneralNumKillsInBattle > 8
           and not Trait BattleDread > 0
           and not CharacterReligion pagan
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  50
 
@@ -20694,6 +21453,13 @@ Trigger battle3Chivalry1_defensivewin
           and GeneralFoughtInCombat
           and not Trait BattleDread > 0
           and not CharacterReligion pagan
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  100
 
@@ -20706,7 +21472,14 @@ Trigger battle3Chivalry_hardoddswin
           and BattleOdds <= 0.5
           and not Trait BattleDread > 0
           and GeneralFoughtInCombat
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan         
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  66
 
@@ -20717,7 +21490,14 @@ Trigger battle3Chivalry_religioncatholic
     Condition CharacterReligion catholic
           and TargetReligion islam
           and not Trait BattleDread > 0
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  33
 
@@ -20728,7 +21508,14 @@ Trigger battle3Chivalry_religionorthodox
     Condition CharacterReligion orthodox
           and TargetReligion islam
           and not Trait BattleDread > 0
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan           
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  33
 
@@ -20739,7 +21526,14 @@ Trigger battle3Chivalry_religionislam
     Condition CharacterReligion islam
           and TargetReligion catholic
           and not Trait BattleDread > 0
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  66
 
@@ -20753,7 +21547,14 @@ Trigger battle3Chivalry1_notchaserouters
           and IsGeneral
           and BattleOdds < 0.95
           and not Trait BattleDread > 0
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects BattleChivalry  1  Chance  33
 
@@ -20820,7 +21621,14 @@ Trigger prisoners_captor1
 
     Condition RansomType release
           and NumCapturedSoldiers > 80
-          and not CharacterReligion pagan
+          and not CharacterReligion pagan          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects CaptorChivalry  1  Chance  100
 
@@ -20830,6 +21638,12 @@ Trigger prisoners_captor2
 
     Condition RansomType execute
           and NumCapturedSoldiers > 80
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
 
     Affects CaptorDread  1  Chance  100
 
@@ -20840,7 +21654,14 @@ Trigger prisoners_captor1_pagan
     Condition RansomType release
           and NumCapturedSoldiers > 80
           and CharacterReligion pagan
-          and Trait CaptorDread > 0
+          and Trait CaptorDread > 0          
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects CaptorChivalry  1  Chance  100
 
@@ -20852,6 +21673,13 @@ Trigger prisoners_payer1
           and NumCapturedSoldiers > 80
           and RansomAmount > 1000
           and not CharacterReligion pagan
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion khemri
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects RansomChivalry  1  Chance  100
 
@@ -20862,6 +21690,12 @@ Trigger prisoners_payer2
     Condition RansomType execute
           and NumCapturedSoldiers > 80
           and RansomAmount < 5000
+          and not FactionReligion hertic
+     	  and not FactionReligion dwarven
+     	  and not FactionReligion orthodox
+     	  and not FactionReligion chaos
+     	  and not FactionType england
+     	  and not FactionType slave
 
     Affects RansomDread  1  Chance  100
 
@@ -20874,6 +21708,12 @@ Trigger prisoners_payer1_pagan
           and RansomAmount > 1000
           and CharacterReligion pagan
           and Trait RansomDread > 0
+          and not FactionReligion catholic
+     	  and not FactionReligion islam
+     	  and not FactionReligion vampire
+     	  and not FactionReligion dark_elf
+     	  and not FactionType normans
+     	  and not FactionType slave
 
     Affects RansomChivalry  1  Chance  100
 
@@ -20903,6 +21743,172 @@ Trigger random_AI_birth1
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;rasja;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;-----------Skaven trait----------------
+Trigger skaven
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType skaven
+
+    Affects Skaven  1  Chance  100
+
+
+        Trigger Skaven2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType skaven
+
+
+    Affects Skaven  1  Chance  100
+
+
+        Trigger Skaven3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType skaven
+
+
+    Affects Skaven  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType skaven
+          and IsGeneral
+
+    Affects Skaven  1  Chance  100
+
+
+;-------------------------------------------
+
+;--------------Tombkings trait--------------
+Trigger TombKing
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType timurids
+
+    Affects TombKing  1  Chance  100
+
+
+        Trigger TombKing2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType timurids
+
+
+    Affects TombKing  1  Chance  100
+
+
+        Trigger TombKing3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType timurids
+
+
+    Affects TombKing  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType timurids
+          and IsGeneral
+
+    Affects TombKing  1  Chance  100
+;-------------------------------------------
+
+;-------------Lizardmen trait---------------
+Trigger Lizardmen
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+          and  FactionType egypt
+
+    Affects Lizardmen  1  Chance  100
+
+        Trigger Lizardmen2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType egypt
+
+
+    Affects Lizardmen  1  Chance  100
+
+
+        Trigger Lizardmen3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType egypt
+
+
+    Affects Lizardmen  1  Chance  100
+
+        Trigger Lizardmen2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition and  FactioneType egypt
+          and IsGeneral
+
+    Affects Lizardmen  1  Chance  100
+
+;-------------------------------------------
+
+;----------------Ogre trait-----------------
+Trigger Ogre
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType Ogres
+
+    Affects Ogre  1  Chance  100
+
+
+        Trigger Ogre2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType Ogres
+
+
+    Affects Ogre  1  Chance  100
+
+
+        Trigger Ogre3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType Ogres
+
+
+    Affects Ogre  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType Ogres
+          and IsGeneral
+
+    Affects Ogre  1  Chance  100
+;-------------------------------------------
 
 Trigger mans
     WhenToTest AgentCreated
@@ -20957,7 +21963,7 @@ Trigger mans
 
     Condition AgentType = priest
               and  FactionCultureType middle_eastern
-    and FactionType moors
+    		  and FactionType moors
 
 
     Affects goblin  1  Chance  100
@@ -22187,3 +23193,37 @@ Trigger Reserves_0_trigger
     and FactionType skaven
 
    Affects Reserves  1  Chance  95
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Griffon 
+;   Trigger 0131_Recruit_Sword_Unit
+;    WhenToTest CharacterTurnEnd  
+
+;     Condition not FactionReligion catholic
+;     	and not FactionReligion islam
+;     	and not FactionReligion vampire
+;     	and not FactionReligion khemri
+;     	and not FactionReligion dark_elf
+;     	and not FactionType normans
+;     	and not FactionType slave
+
+
+;    Condition not FactionType denmark			
+;		and not FactionType norway			
+;		and not FactionType lithuania			
+;		and not FactionType novgorod			
+;		and not FactionType teutonic_order	
+;		and not FactionType aztecs			
+;		and not FactionType skaven			
+;		and not FactionType turks				
+;		and not FactionType moors				
+;		and not FactionType ogres				
+;		and not FactionType hungary			
+;		and not FactionType timurids			
+;		and not FactionType mongols           
+;		and not FactionType normans 			 
+
+
+
+;    Affects Griffon_Security  1  Chance  100
+
+ 
