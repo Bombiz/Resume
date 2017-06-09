@@ -88,16 +88,16 @@
 
 ;------------------------------------------
 
-	Trait Griffon_Security
-	Characters all
+;	Trait Griffon_Security
+;	Characters all
 
-    Level Griffon_Security
-	Description Griffon_Security
-    EffectsDescription Griffon_Security
-    GainMessage Griffon_Security_Gain
-	Threshold 1
+;    Level Griffon_Security
+;	Description Griffon_Security
+;    EffectsDescription Griffon_Security
+;    GainMessage Griffon_Security_Gain
+;	Threshold 1
 
-    Effect PublicSecurity -10
+;    Effect PublicSecurity -10
 
 ;------------------------------------------
 
@@ -605,7 +605,7 @@ Trait Bio
     EffectsDescription none_desc
     GainMessage none_desc
     LoseMessage none_desc
-    Epithet knyaz_1_epithet_desc
+    ;Epithet knyaz_1_epithet_desc
 	Threshold 16
 
 	Effect Level 5
@@ -625,7 +625,7 @@ Trait Bio
     EffectsDescription none_desc
     GainMessage none_desc
     LoseMessage none_desc
-    Epithet knyaz_2_epithet_desc
+    ;Epithet knyaz_2_epithet_desc
 	Threshold 16
 
 	;Effect Level 8
@@ -665,7 +665,7 @@ Trait knyaz_4
 	EffectsDescription none_desc
 	GainMessage none_desc
 	LoseMessage none_desc
-	Epithet knyaz_4_epithet_desc
+	;Epithet knyaz_4_epithet_desc
 	Threshold 16
 
 	Effect Chivalry 5
@@ -684,7 +684,7 @@ Trait knyaz_5
 	EffectsDescription none_desc
 	GainMessage none_desc
 	LoseMessage none_desc
-	Epithet knyaz_5_epithet_desc
+	;Epithet knyaz_5_epithet_desc
 	Threshold 16
 
 	Effect Chivalry 5
@@ -3494,7 +3494,7 @@ Trait Sven
 	Effect Chivalry 4
 	Effect MovementPoints 2
 	Effect TroopMorale 3
-	;Effect Level 8
+	Effect Level 8
 
 ;------------------------------------------
 
@@ -3889,7 +3889,7 @@ Trait Drong
 
 Trait Ruglud
 	Characters family
-    	AntiTraits Factionleader, Factionheir
+    	Hidden
 
    Level Ruglud
 	Description Ruglud_desc
@@ -3899,14 +3899,7 @@ Trait Ruglud
         ;Epithet Merccapitan_epithet_desc
 	Threshold 1
 
-	Effect InfantryCommand 3
-	Effect HitPoints 3
-	Effect Looting 100
-	Effect Loyalty 3
-	Effect LocalPopularity -10
-	Effect Chivalry -5
-	Effect Ambush 4
-	Effect Level 6
+	Effect PersonalSecurity -99
 
 	;------------------------------------------
 
@@ -10545,7 +10538,7 @@ Trait Genocide
     Level Brutal_Conqueror
         Description Brutal_Conqueror_desc
         EffectsDescription Brutal_Conqueror_effects_desc
-        Threshold  1
+        Threshold  3
 
         Effect Chivalry -1
         Effect Looting   10
@@ -10696,7 +10689,6 @@ Trait Factionleader
 
         Effect Command  1
         Effect Authority  2
-        Effect PersonalSecurity  -99
         Effect Level  2
 
 
@@ -16719,7 +16711,7 @@ Trigger dads_NaturalMilitaryTalent
 Trigger dads_authoritarian
     WhenToTest CharacterComesOfAge
 
-    Condition FatherTrait Authoritarian >= 1          
+    Condition FatherTrait Authoritarian >= 1  
           and not FactionReligion catholic
      	  and not FactionReligion islam
      	  and not FactionReligion vampire
@@ -16735,7 +16727,7 @@ Trigger dads_authoritarian
 Trigger dads_kindruler
     WhenToTest CharacterComesOfAge
 
-    Condition FatherTrait KindRuler >= 1          
+    Condition FatherTrait KindRuler >= 1
           and not FactionReligion catholic
      	  and not FactionReligion islam
      	  and not FactionReligion vampire
@@ -19865,7 +19857,7 @@ Trigger building_religion_orthodox
 Trigger building_mines
     WhenToTest GovernorBuildingCompleted
 
-    Condition SettlementBuildingFinished >= c_mines+1
+    Condition SettlementBuildingFinished >= mines+1
 
     Affects GoodMiner  1  Chance  100
 
@@ -19873,10 +19865,10 @@ Trigger building_mines
 Trigger not_building_trade
     WhenToTest GovernorBuildingCompleted
 
-    Condition not SettlementBuildingExists >= market_3
-    	and not SettlementTaxLevel >= tax normal
+    Condition SettlementBuildingExists >= wooden_wall
+    	and not SettlementBuildingExists >= market_3
 
-    Affects BadTrader  1  Chance  100
+    Affects BadTrader  1  Chance  10
 
 ;------------------------------------------
 Trigger building_trade
@@ -19892,7 +19884,7 @@ Trigger building_ports
 
     Condition SettlementBuildingFinished >= port
 
-    Affects GoodTrader  3  Chance  100
+    Affects GoodTrader  3  Chance  80
     Affects GoodBuilder  1  Chance  25
 
 ;------------------------------------------
@@ -19901,7 +19893,7 @@ Trigger building_roads
 
     Condition SettlementBuildingFinished >= roads
 
-    Affects GoodTrader  1  Chance  100
+    Affects GoodTrader  1  Chance  80
     Affects GoodBuilder  1  Chance  50
 
 ;------------------------------------------
@@ -19937,7 +19929,7 @@ Trigger building_bank
 
     Condition SettlementBuildingFinished >= market_2
 
-    Affects GoodTrader  3  Chance  100
+    Affects GoodTrader  3  Chance  33
 
 ;------------------------------------------
 Trigger building_music
@@ -19945,7 +19937,7 @@ Trigger building_music
 
     Condition SettlementBuildingFinished >= inn
 
-    Affects Cultured  1  Chance  100
+    Affects Cultured  1  Chance  33
 
 ;------------------------------------------
 Trigger building_brothel
@@ -19995,7 +19987,7 @@ Trigger building_caravans
 
     Condition SettlementBuildingFinished >= alchemists_lab
 
-    Affects GoodTrader  3  Chance  100
+    Affects GoodTrader  3  Chance  10
 
 ;------------------------------------------
 Trigger building_tourney
@@ -20055,7 +20047,7 @@ Trigger building_townhall_dread
     WhenToTest GovernorBuildingCompleted
 
     Condition Trait StrategyDread >= 1
-          and SettlementBuildingFinished >= city_hall_2
+          and SettlementBuildingFinished >= city_hall_4
 
     Affects HarshJustice  1  Chance  100
     Affects GoodBuilder  1  Chance  25
@@ -21740,7 +21732,14 @@ Trigger random_AI_birth1
 
 
         ;------------------------------------------
-
+;Trigger factionleader_pope
+;    WhenToTest BecomesFactionLeader
+;
+;    Condition FactionType papal_states
+;
+;    Affects IAmPope  1  Chance  100
+;
+;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;rasja;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -23196,16 +23195,16 @@ Trigger Reserves_0_trigger
    Affects Reserves  1  Chance  95
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Griffon 
-   Trigger 0131_Recruit_Sword_Unit
-    WhenToTest CharacterTurnEnd  
+;   Trigger 0131_Recruit_Sword_Unit
+;    WhenToTest CharacterTurnEnd  
 
-     Condition not FactionReligion catholic
-     	and not FactionReligion islam
-     	and not FactionReligion vampire
-     	and not FactionReligion khemri
-     	and not FactionReligion dark_elf
-     	and not FactionType normans
-     	and not FactionType slave
+;     Condition not FactionReligion catholic
+;     	and not FactionReligion islam
+;     	and not FactionReligion vampire
+;     	and not FactionReligion khemri
+;     	and not FactionReligion dark_elf
+;     	and not FactionType normans
+;     	and not FactionType slave
 
 
 ;    Condition not FactionType denmark			
@@ -23225,6 +23224,6 @@ Trigger Reserves_0_trigger
 
 
 
-    Affects Griffon_Security  1  Chance  100
+;    Affects Griffon_Security  1  Chance  100
 
  
