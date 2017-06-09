@@ -21740,17 +21740,176 @@ Trigger random_AI_birth1
 
 
         ;------------------------------------------
-;Trigger factionleader_pope
-;    WhenToTest BecomesFactionLeader
-;
-;    Condition FactionType papal_states
-;
-;    Affects IAmPope  1  Chance  100
-;
-;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;rasja;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;-----------Skaven trait----------------
+Trigger skaven
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType skaven
+
+    Affects Skaven  1  Chance  100
+
+
+        Trigger Skaven2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType skaven
+
+
+    Affects Skaven  1  Chance  100
+
+
+        Trigger Skaven3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType skaven
+
+
+    Affects Skaven  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType skaven
+          and IsGeneral
+
+    Affects Skaven  1  Chance  100
+
+
+;-------------------------------------------
+
+;--------------Tombkings trait--------------
+Trigger TombKing
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType timurids
+
+    Affects TombKing  1  Chance  100
+
+
+        Trigger TombKing2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType timurids
+
+
+    Affects TombKing  1  Chance  100
+
+
+        Trigger TombKing3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType timurids
+
+
+    Affects TombKing  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType timurids
+          and IsGeneral
+
+    Affects TombKing  1  Chance  100
+;-------------------------------------------
+
+;-------------Lizardmen trait---------------
+Trigger Lizardmen
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+          and  FactionType egypt
+
+    Affects Lizardmen  1  Chance  100
+
+        Trigger Lizardmen2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType egypt
+
+
+    Affects Lizardmen  1  Chance  100
+
+
+        Trigger Lizardmen3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType egypt
+
+
+    Affects Lizardmen  1  Chance  100
+
+        Trigger Lizardmen2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition and  FactioneType egypt
+          and IsGeneral
+
+    Affects Lizardmen  1  Chance  100
+
+;-------------------------------------------
+
+;----------------Ogre trait-----------------
+Trigger Ogre
+    WhenToTest AgentCreated
+
+    Condition AgentType = spy
+    and AgentType = priest
+    and AgentType = princess
+    and AgentType = assassin
+    and AgentType = merchant
+    and AgentType = diplomat
+    and  FactionType Ogres
+
+    Affects Ogre  1  Chance  100
+
+
+        Trigger Ogre2_vnv_trigger
+    WhenToTest OfferedForMarriage
+
+    Condition FactionType Ogres
+
+
+    Affects Ogre  1  Chance  100
+
+
+        Trigger Ogre3_vnv_trigger
+    WhenToTest CharacterComesOfAge
+
+    Condition FactionType Ogres
+
+
+    Affects Ogre  1  Chance  100
+
+        Trigger man2_vnv_trigger
+    WhenToTest OfferedForAdoption
+
+    Condition not FactionType Ogres
+          and IsGeneral
+
+    Affects Ogre  1  Chance  100
+;-------------------------------------------
 
 Trigger mans
     WhenToTest AgentCreated
@@ -21805,7 +21964,7 @@ Trigger mans
 
     Condition AgentType = priest
               and  FactionCultureType middle_eastern
-    and FactionType moors
+    		  and FactionType moors
 
 
     Affects goblin  1  Chance  100
