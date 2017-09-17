@@ -3,10 +3,12 @@ $activeskills=array();
 $allskills=array();
 $allrunes=array();
 
-//$battleTag = $_SESSION['battleTag'];
-//$hero_id = $this->get_id();
-$file=file_get_contents("http://us.battle.net/api/d3/profile/Vitalshot-1609/hero/1752008");
+$battleTag = $_SESSION['battleTag'];
+$api_key="6mxq9g3c5ycpzg3se5xa29eb967j4edj";
+$hero_id = $this->get_id();
+$file=file_get_contents("https://us.api.battle.net/d3/profile/$battle_tag/hero/$hero_id?apikey=$api_key/");
 $json=json_decode($file, true);
+  	
 
 
 /*
