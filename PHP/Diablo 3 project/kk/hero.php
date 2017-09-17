@@ -10,8 +10,9 @@ $smarty = Smart();
 
 if( isset($_SESSION['battleTag']) )
 {
+	$api_key="6mxq9g3c5ycpzg3se5xa29eb967j4edj";
 	$battle_tag = $_SESSION['battleTag'];
-        $file=file_get_contents("http://us.battle.net/api/d3/profile/$battle_tag/");
+	$file=file_get_contents("https://us.api.battle.net/d3/profile/$battle_tag/?apikey=$api_key/");
 
 	$json=json_decode($file, true);
 
